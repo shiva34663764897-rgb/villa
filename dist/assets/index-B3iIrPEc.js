@@ -81,7 +81,7 @@
         <a href="#/contact" class="ref-mobile-link">Contact</a>
         <div class="ref-mobile-contact">
           <a href="tel:+919490634829" class="mobile-contact-item">📞 +91 94906 34829</a>
-          <a href="mailto:info@ksvproperties.com" class="mobile-contact-item">✉️ info@ksvproperties.com</a>
+          <a href="mailto:info@vrrealestates.com" class="mobile-contact-item">✉️ info@vrrealestates.com</a>
         </div>
       </div>
     </header>
@@ -254,7 +254,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
         </div>
       </div>
     </section>
-  `}var s=[{id:`feat-villas`,category:`villas`,badge:`★ Featured`,badgeClass:`badge-gold`,name:`KSV Green Villas`,location:`Kompally, Hyderabad`,type:`Villas`,typeIcon:`🏠`,spec2:`Gated Community`,spec2Icon:`👥`,spec3:`Green Living`,spec3Icon:`🍃`,price:`₹1.25 Cr*`,image:`/images/ref/feat-villa-clean.jpg`,link:`#/villas`},{id:`feat-plots`,category:`openplots`,badge:`🔥 High Demand`,badgeClass:`badge-orange`,name:`KSV Prime Meadows`,location:`Shadnagar, Hyderabad`,type:`Open Plots`,typeIcon:`🗺️`,spec2:`HMDA Approved`,spec2Icon:`🏛️`,spec3:`High Growth`,spec3Icon:`📊`,price:`₹29.9 Lakhs*`,image:`/images/ref/feat-plots-clean.jpg`,link:`#/amodha`},{id:`feat-apts`,category:`apartments`,badge:`🚀 New Launch`,badgeClass:`badge-teal`,name:`KSV Heights`,location:`Nallagandla, Hyderabad`,type:`Apartments`,typeIcon:`🏢`,spec2:`2 & 3 BHK`,spec2Icon:`🏠`,spec3:`Modern Amenities`,spec3Icon:`🏊`,price:`₹65 Lakhs*`,image:`/images/ref/feat-apts-clean.jpg`,link:`#/apartments`},{id:`feat-farms`,category:`farmlands`,badge:`🌱 Invest Wise`,badgeClass:`badge-green`,name:`KSV Agro Lands`,location:`Shankarpally, Hyderabad`,type:`Farm Lands`,typeIcon:`🌾`,spec2:`Managed Farmlands`,spec2Icon:`🌲`,spec3:`Long-Term Value`,spec3Icon:`📈`,price:`₹18 Lakhs*`,image:`/images/ref/feat-farm-clean.jpg`,link:`#/farmlands`}];function c(){return`
+  `}var s=[{id:`feat-villas`,category:`villas`,badge:`★ Featured`,badgeClass:`badge-gold`,name:`VR Green Villas`,location:`Kompally, Hyderabad`,type:`Villas`,typeIcon:`🏠`,spec2:`Gated Community`,spec2Icon:`👥`,spec3:`Green Living`,spec3Icon:`🍃`,price:`₹1.25 Cr*`,image:`/images/ref/feat-villa-clean.jpg`,link:`#/villas`},{id:`feat-plots`,category:`openplots`,badge:`🔥 High Demand`,badgeClass:`badge-orange`,name:`VR Prime Meadows`,location:`Shadnagar, Hyderabad`,type:`Open Plots`,typeIcon:`🗺️`,spec2:`HMDA Approved`,spec2Icon:`🏛️`,spec3:`High Growth`,spec3Icon:`📊`,price:`₹29.9 Lakhs*`,image:`/images/ref/feat-plots-clean.jpg`,link:`#/amodha`},{id:`feat-apts`,category:`apartments`,badge:`🚀 New Launch`,badgeClass:`badge-teal`,name:`VR Heights`,location:`Nallagandla, Hyderabad`,type:`Apartments`,typeIcon:`🏢`,spec2:`2 & 3 BHK`,spec2Icon:`🏠`,spec3:`Modern Amenities`,spec3Icon:`🏊`,price:`₹65 Lakhs*`,image:`/images/ref/feat-apts-clean.jpg`,link:`#/apartments`},{id:`feat-farms`,category:`farmlands`,badge:`🌱 Invest Wise`,badgeClass:`badge-green`,name:`VR Agro Lands`,location:`Shankarpally, Hyderabad`,type:`Farm Lands`,typeIcon:`🌾`,spec2:`Managed Farmlands`,spec2Icon:`🌲`,spec3:`Long-Term Value`,spec3Icon:`📈`,price:`₹18 Lakhs*`,image:`/images/ref/feat-farm-clean.jpg`,link:`#/farmlands`}];function c(){return`
     <section class="ref-projects-section" id="featured-projects">
       <div class="ref-container">
         <!-- Section Header -->
@@ -556,7 +556,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           <!-- RIGHT SIDE: Grand Entrance Property Visual & Stats -->
           <div class="ref-find-right">
             <div class="ref-find-visual-container">
-              <img src="/images/ref/find-prop.jpg" alt="KSV Properties Entrance" class="ref-find-img" />
+              <img src="/images/ref/find-prop.jpg" alt="VR Real Estates Entrance" class="ref-find-img" />
               
               <!-- Floating Glass Card -->
               <div class="ref-find-glass-badge">
@@ -670,15 +670,15 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           <!-- Column 1: Brand Info & Socials -->
           <div class="ref-footer-col brand-col">
             <a href="#/" class="footer-brand-wrap">
-              <img src="/images/logo.png" alt="KSV Properties" class="footer-brand-logo" onerror="this.style.display='none'" />
+              <img src="/images/vr-logo.png" alt="VR Real Estates" class="footer-brand-logo" onerror="this.style.display='none'" />
               <div class="footer-brand-heading">
-                <span class="brand-title">KSV PROPERTIES</span>
+                <span class="brand-title">VR REAL ESTATES</span>
                 <span class="brand-sub">LAND TODAY &bull; A BRIGHTER TOMORROW</span>
               </div>
             </a>
             
             <p class="footer-brand-desc">
-              At KSV Properties, we believe property is more than just land or a home &mdash; it's the foundation for a brighter tomorrow. We bring you verified properties, expert guidance and complete support, helping you make confident real estate decisions.
+              At VR Real Estates, we believe property is more than just land or a home &mdash; it's the foundation for a brighter tomorrow. We bring you verified properties, expert guidance and complete support, helping you make confident real estate decisions.
             </p>
 
             <div class="footer-social-icons">
@@ -745,22 +745,22 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
               <div class="contact-line">
                 <svg class="contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C59B3F" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
                 <div class="contact-text">
-                  <strong>KSV Properties</strong><br/>
-                  <span>Tirupati &amp; Hyderabad, AP &amp; Telangana - 517501, India</span>
+                  <strong>VR Real Estates</strong><br/>
+                  <span>Tirupati, Andhra Pradesh - 517501<br/>India</span>
                 </div>
               </div>
 
               <div class="contact-line">
                 <svg class="contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C59B3F" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
                 <div class="contact-text">
-                  <a href="tel:+919490634829">+91 94906 34829</a>
+                  <a href="tel:+919876543210">+91 98765 43210</a>
                 </div>
               </div>
 
               <div class="contact-line">
                 <svg class="contact-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C59B3F" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
                 <div class="contact-text">
-                  <a href="mailto:info@ksvproperties.com">info@ksvproperties.com</a>
+                  <a href="mailto:info@vrrealestates.com">info@vrrealestates.com</a>
                 </div>
               </div>
 
@@ -776,9 +776,59 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
 
         </div>
 
-        <!-- Architectural Skyline & Gold Line Divider -->
+        <!-- Architectural Skyline SVG & Gold Line Divider -->
         <div class="ref-footer-skyline-row">
-          <img src="/images/ref/skyline-gold.png" alt="Skyline Ornament" class="footer-gold-skyline" onerror="this.style.display='none'" />
+          <div class="footer-skyline-svg">
+            <svg viewBox="0 0 1200 120" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet">
+              <!-- City skyline silhouette -->
+              <g opacity="0.25" fill="#C59B3F">
+                <!-- Left buildings -->
+                <rect x="20" y="80" width="30" height="40"/>
+                <rect x="55" y="60" width="20" height="60"/>
+                <rect x="80" y="70" width="25" height="50"/>
+                <rect x="110" y="45" width="35" height="75"/>
+                <rect x="150" y="55" width="22" height="65"/>
+                <rect x="177" y="40" width="28" height="80"/>
+                <rect x="210" y="65" width="18" height="55"/>
+                <rect x="233" y="50" width="30" height="70"/>
+                <!-- Trees -->
+                <ellipse cx="275" cy="90" rx="14" ry="10"/>
+                <rect x="272" y="100" width="6" height="20"/>
+                <ellipse cx="305" cy="85" rx="10" ry="8"/>
+                <rect x="302" y="93" width="6" height="27"/>
+                <!-- Center buildings -->
+                <rect x="330" y="30" width="40" height="90"/>
+                <rect x="375" y="50" width="25" height="70"/>
+                <rect x="405" y="20" width="50" height="100"/>
+                <rect x="460" y="45" width="30" height="75"/>
+                <rect x="495" y="35" width="45" height="85"/>
+                <rect x="545" y="55" width="22" height="65"/>
+                <!-- Antenna on center tall building -->
+                <rect x="426" y="10" width="4" height="20"/>
+                <!-- More buildings right -->
+                <rect x="575" y="40" width="35" height="80"/>
+                <rect x="615" y="60" width="25" height="60"/>
+                <rect x="645" y="30" width="40" height="90"/>
+                <rect x="690" y="50" width="28" height="70"/>
+                <rect x="723" y="65" width="20" height="55"/>
+                <!-- Trees right -->
+                <ellipse cx="755" cy="88" rx="12" ry="9"/>
+                <rect x="752" y="97" width="6" height="23"/>
+                <ellipse cx="780" cy="83" rx="10" ry="8"/>
+                <rect x="777" y="91" width="6" height="29"/>
+                <!-- Far right buildings -->
+                <rect x="800" y="55" width="30" height="65"/>
+                <rect x="835" y="45" width="22" height="75"/>
+                <rect x="862" y="70" width="28" height="50"/>
+                <rect x="895" y="40" width="35" height="80"/>
+                <rect x="935" y="60" width="20" height="60"/>
+                <rect x="960" y="75" width="25" height="45"/>
+                <rect x="990" y="85" width="18" height="35"/>
+              </g>
+              <!-- Ground line -->
+              <line x1="0" y1="120" x2="1200" y2="120" stroke="#C59B3F" stroke-width="0.5" opacity="0.3"/>
+            </svg>
+          </div>
           <div class="footer-tagline-bar">
             <span class="sub-rule"></span>
             <span class="sub-text">LAND TODAY &bull; A BRIGHTER TOMORROW</span>
@@ -789,21 +839,21 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
         <!-- Copyright & Bottom Handwritten Script -->
         <div class="ref-footer-bottom-bar">
           <div class="footer-copyright">
-            &copy; 2026 KSV Properties. All rights reserved.
+            &copy; 2026 VR Real Estates. All rights reserved.
           </div>
 
           <div class="footer-bottom-right">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#C59B3F" stroke-width="1.8">
               <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
             </svg>
-            <span class="ref-handwritten">Invest Today Live Better Tomorrow</span>
+            <span class="ref-handwritten">Invest Today<br/>Live Better Tomorrow</span>
           </div>
         </div>
       </div>
     </footer>
 
     <!-- Floating WhatsApp Button -->
-    <a href="https://wa.me/919490634829?text=Hi%20KSV%20Properties,%20I%20am%20interested%20in%20exploring%20properties." target="_blank" rel="noopener" class="ref-floating-whatsapp" id="ref-floating-whatsapp" title="Chat on WhatsApp">
+    <a href="https://wa.me/919876543210?text=Hi%20VR%20Real%20Estates,%20I%20am%20interested%20in%20exploring%20properties." target="_blank" rel="noopener" class="ref-floating-whatsapp" id="ref-floating-whatsapp" title="Chat on WhatsApp">
       <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
         <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
       </svg>
@@ -1084,7 +1134,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
                   SEND ENQUIRY
                 </button>
 
-                <a href="https://wa.me/919490634829?text=Hi%20KSV%20Properties,%20I%20am%20interested%20in%20${encodeURIComponent(r.title+` at `+r.location)}" target="_blank" rel="noopener" class="btn-whatsapp-enquiry" style="text-decoration: none;">
+                <a href="https://wa.me/919876543210?text=Hi%20VR%20Real%20Estates,%20I%20am%20interested%20in%20${encodeURIComponent(r.title+` at `+r.location)}" target="_blank" rel="noopener" class="btn-whatsapp-enquiry" style="text-decoration: none;">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                     <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
                   </svg>
@@ -1122,10 +1172,10 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
 
       ${p()}
     </div>
-  `,init:()=>{t(),m();let e=document.getElementById(`static-contact-form`);e&&e.addEventListener(`submit`,t=>{t.preventDefault(),e.reset(),v(`Message sent! Our property advisor will reach out to you.`)})}}}function C(){return S(`ABOUT KSV PROPERTIES`,`Find Your Dream Asset with complete confidence, transparency, and legal due diligence.`,`
+  `,init:()=>{t(),m();let e=document.getElementById(`static-contact-form`);e&&e.addEventListener(`submit`,t=>{t.preventDefault(),e.reset(),v(`Message sent! Our property advisor will reach out to you.`)})}}}function C(){return S(`ABOUT VR REAL ESTATES`,`Find Your Dream Asset with complete confidence, transparency, and legal due diligence.`,`
       <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: #0e4b9e; margin-bottom: 16px;">Who We Are</h2>
       <p style="margin-bottom: 20px;">
-        KSV Properties is a premier real estate advisory and land acquisition company operating across prime corridors in Telangana and Andhra Pradesh. Built on principles of transparency, trust, and verified documentation, we assist individual home seekers, NRI investors, and institutional clients in identifying high-growth land assets and luxury properties.
+        VR Real Estates is a premier real estate advisory and land acquisition company operating across prime corridors in Telangana and Andhra Pradesh. Built on principles of transparency, trust, and verified documentation, we assist individual home seekers, NRI investors, and institutional clients in identifying high-growth land assets and luxury properties.
       </p>
       <h3 style="font-family: var(--font-heading); font-size: 1.4rem; color: #1e293b; margin-top: 30px; margin-bottom: 14px;">Our Core Expertise</h3>
       <ul style="padding-left: 20px; margin-bottom: 24px;">
@@ -1157,7 +1207,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           <p>Strategic advisory on when to enter, hold, and exit plotted land investments to maximize compounding capital returns.</p>
         </div>
       </div>
-    `,`#/services`)}function T(){return S(`CONTACT US`,`Get in touch with KSV Properties advisors for plots, villas, and site visits.`,`
+    `,`#/services`)}function T(){return S(`CONTACT US`,`Get in touch with VR Real Estates advisors for plots, villas, and site visits.`,`
       <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px;">
         <div>
           <h3 style="font-family: var(--font-heading); font-size: 1.4rem; color: #0e4b9e; margin-bottom: 16px;">Send Us a Message</h3>
@@ -1190,7 +1240,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
         <div style="background: #f8fafc; border-radius: 12px; padding: 28px; border: 1px solid #e2e8f0;">
           <h3 style="font-family: var(--font-heading); font-size: 1.3rem; color: #1e293b; margin-bottom: 20px;">Direct Contact</h3>
           <p style="margin-bottom: 14px;"><strong>📞 Phone:</strong> <a href="tel:+919490634829" style="color: #0e4b9e; font-weight: 600;">+91-9490-634829</a></p>
-          <p style="margin-bottom: 14px;"><strong>✉️ Email:</strong> <a href="mailto:info@ksvproperties.com" style="color: #0e4b9e; font-weight: 600;">info@ksvproperties.com</a></p>
+          <p style="margin-bottom: 14px;"><strong>✉️ Email:</strong> <a href="mailto:info@vrrealestates.com" style="color: #0e4b9e; font-weight: 600;">info@vrrealestates.com</a></p>
           <p style="margin-bottom: 14px;"><strong>📍 Locations:</strong> Hyderabad, Shadnagar, Amaravati &amp; Visakhapatnam</p>
           <div style="margin-top: 24px;">
             <a href="https://wa.me/919490634829" target="_blank" class="btn-whatsapp-enquiry" style="text-decoration: none;">
@@ -1231,7 +1281,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           </div>
         </div>
       </div>
-    `,`#/media`)}function O(e=`villas`){let t={villas:`LUXURY VILLAS`,apartments:`PREMIUM APARTMENTS`,farmlands:`MANAGED FARM LANDS`},n={villas:`/images/cat-villas.jpg`,apartments:`/images/cat-apartments.jpg`,farmlands:`/images/cat-farmlands.jpg`},r=t[e]||`PROPERTIES`,i=n[e]||`/images/cat-villas.jpg`;return S(r,`Explore premium ${e} verified by KSV Properties.`,`
+    `,`#/media`)}function O(e=`villas`){let t={villas:`LUXURY VILLAS`,apartments:`PREMIUM APARTMENTS`,farmlands:`MANAGED FARM LANDS`},n={villas:`/images/cat-villas.jpg`,apartments:`/images/cat-apartments.jpg`,farmlands:`/images/cat-farmlands.jpg`},r=t[e]||`PROPERTIES`,i=n[e]||`/images/cat-villas.jpg`;return S(r,`Explore premium ${e} verified by VR Real Estates.`,`
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px;">
         <div style="border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: var(--shadow-sm);">
           <img src="${i}" style="height: 260px; width: 100%; object-fit: cover;" />
@@ -1251,7 +1301,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
         </div>
       </div>
     `,`#/${e}`)}var k={"/":h,"/open-plots":_,"/open-plots.html":_,"/amodha":()=>x(`amodha`),"/amodha.html":()=>x(`amodha`),"/about":C,"/services":w,"/resources":E,"/media":D,"/contact":T,"/villas":()=>O(`villas`),"/apartments":()=>O(`apartments`),"/farmlands":()=>O(`farmlands`)};function A(){let e=window.location.hash||`#/`,t=e.replace(/^#/,``).split(`?`)[0],n=document.getElementById(`app`);if(!n)return;if(window.scrollTo(0,0),k[t]){let e=k[t]();n.innerHTML=e.html,e.init&&e.init();return}if(t.startsWith(`/property/`)){let e=x(t.replace(`/property/`,``));n.innerHTML=e.html,e.init&&e.init();return}if(t.startsWith(`/guides/`)){let r=t.replace(`/guides/`,``).replace(/-/g,` `).toUpperCase(),i=S(`${r} BUYER GUIDE`,`Complete legal, connectivity, and development insights.`,`
-        <p style="margin-bottom: 20px;">Welcome to the official <strong>${r} Buyer Guide</strong> by KSV Properties. When investing in real estate, thorough due diligence and on-ground analysis are paramount.</p>
+        <p style="margin-bottom: 20px;">Welcome to the official <strong>${r} Buyer Guide</strong> by VR Real Estates. When investing in real estate, thorough due diligence and on-ground analysis are paramount.</p>
         <div style="background: #f0f7ff; border-left: 4px solid #0e4b9e; padding: 20px; border-radius: 8px; margin-bottom: 24px;">
           <h4 style="color: #0e4b9e; margin-bottom: 8px;">Key Verification Steps:</h4>
           <ul>

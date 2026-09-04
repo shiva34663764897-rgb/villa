@@ -183,7 +183,7 @@ export function renderFindProperty() {
           <!-- RIGHT SIDE: Grand Entrance Property Visual & Stats -->
           <div class="ref-find-right">
             <div class="ref-find-visual-container">
-              <img src="/images/ref/find-prop.jpg" alt="KSV Properties Entrance" class="ref-find-img" />
+              <img src="/images/ref/find-prop.jpg" alt="VR Real Estates Entrance" class="ref-find-img" />
               
               <!-- Floating Glass Card -->
               <div class="ref-find-glass-badge">
