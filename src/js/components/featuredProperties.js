@@ -14,7 +14,7 @@ export const featuredProjectsData = [
     spec3Icon: '🍃',
     price: '₹1.25 Cr*',
     image: '/images/ref/feat-villa-clean.jpg',
-    link: '#/villas'
+    link: '#/vr-green-villas'
   },
   {
     id: 'feat-plots',
@@ -31,7 +31,7 @@ export const featuredProjectsData = [
     spec3Icon: '📊',
     price: '₹29.9 Lakhs*',
     image: '/images/ref/feat-plots-clean.jpg',
-    link: '#/amodha'
+    link: '#/vr-prime-meadows'
   },
   {
     id: 'feat-apts',
@@ -48,7 +48,7 @@ export const featuredProjectsData = [
     spec3Icon: '🏊',
     price: '₹65 Lakhs*',
     image: '/images/ref/feat-apts-clean.jpg',
-    link: '#/apartments'
+    link: '#/vr-heights'
   },
   {
     id: 'feat-farms',
@@ -65,7 +65,7 @@ export const featuredProjectsData = [
     spec3Icon: '📈',
     price: '₹18 Lakhs*',
     image: '/images/ref/feat-farm-clean.jpg',
-    link: '#/farmlands'
+    link: '#/vr-agro-lands'
   }
 ];
 

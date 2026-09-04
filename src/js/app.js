@@ -1,6 +1,7 @@
 import { renderHomePage } from './pages/home.js';
 import { renderOpenPlotsPage } from './pages/openPlots.js';
 import { renderPropertyDetailPage } from './pages/propertyDetail.js';
+import { renderProjectDetail } from './pages/projectDetailEngine.js';
 import {
   renderAboutPage,
   renderServicesPage,
@@ -16,8 +17,12 @@ const routes = {
   '/': renderHomePage,
   '/open-plots': renderOpenPlotsPage,
   '/open-plots.html': renderOpenPlotsPage,
-  '/amodha': () => renderPropertyDetailPage('amodha'),
-  '/amodha.html': () => renderPropertyDetailPage('amodha'),
+  '/vr-green-villas': () => renderProjectDetail('vr-green-villas'),
+  '/vr-prime-meadows': () => renderProjectDetail('vr-prime-meadows'),
+  '/vr-heights': () => renderProjectDetail('vr-heights'),
+  '/vr-agro-lands': () => renderProjectDetail('vr-agro-lands'),
+  '/amodha': () => renderProjectDetail('vr-prime-meadows'),
+  '/amodha.html': () => renderProjectDetail('vr-prime-meadows'),
   '/about': renderAboutPage,
   '/services': renderServicesPage,
   '/resources': renderResourcesPage,
@@ -112,4 +117,8 @@ function router() {
 }
 
 window.addEventListener('hashchange', router);
-window.addEventListener('DOMContentLoaded', router);
+if (document.readyState === 'loading') {
+  window.addEventListener('DOMContentLoaded', router);
+} else {
+  router();
+}

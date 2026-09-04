@@ -1,9 +1,14 @@
+import heroFarm from '../../../reference/homepage/hero-farm.jpeg';
+import heroVilla from '../../../reference/homepage/hero-villa.jpeg';
+import heroPlots from '../../../reference/homepage/hero-apartments.jpeg';
+import heroApartments from '../../../reference/homepage/hero-plots.jpeg';
+
 export const heroSlidesData = [
   {
     id: 'farmlands',
     category: 'FARM LANDS',
     categoryIcon: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>`,
-    titleLine1: 'A Greener Tomorrow,',
+    titleLine1: 'A Greener<br/>Tomorrow,',
     titleLine2: 'A Wiser Investment',
     desc: 'Managed farm lands that bring you closer to nature and long-term value.',
     primaryCta: 'Explore Farm Lands',
@@ -27,7 +32,7 @@ export const heroSlidesData = [
       }
     ],
     taglineHtml: `<span class="ref-handwritten">Land for a Better Life</span>`,
-    image: '/images/ref/hero-farm.jpg',
+    image: heroFarm,
     imageTagline: 'Invest in a Healthier Tomorrow',
     floatingCardText: 'Nature Generates Wealth'
   },
@@ -35,8 +40,8 @@ export const heroSlidesData = [
     id: 'villas',
     category: 'LUXURY VILLAS',
     categoryIcon: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>`,
-    titleLine1: 'Your Dream Home,',
-    titleLine2: 'A Brighter Tomorrow',
+    titleLine1: 'Your Dream<br/>Home, A Brighter',
+    titleLine2: 'Tomorrow',
     desc: 'Thoughtfully designed villas that offer modern living, more space and a better future for you and your family.',
     primaryCta: 'Explore Villas',
     primaryLink: '#/villas',
@@ -59,7 +64,7 @@ export const heroSlidesData = [
       }
     ],
     taglineHtml: `<span class="ref-handwritten">Spaces for a Better Tomorrow</span>`,
-    image: '/images/ref/hero-villa.jpg',
+    image: heroVilla,
     imageTagline: 'Live Greener Own Greater',
     floatingCardText: 'Modern Homes for a Healthier Tomorrow'
   },
@@ -67,8 +72,8 @@ export const heroSlidesData = [
     id: 'openplots',
     category: 'OPEN PLOTS',
     categoryIcon: `<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>`,
-    titleLine1: 'Invest in Land,',
-    titleLine2: 'Invest in a Better Tomorrow',
+    titleLine1: 'Invest in Land,<br/>Invest in a',
+    titleLine2: 'Better Tomorrow',
     desc: 'HMDA & DTCP approved open plots in fast-growing corridors of Telangana & Andhra Pradesh.',
     primaryCta: 'Explore Open Plots',
     primaryLink: '#/open-plots',
@@ -91,7 +96,7 @@ export const heroSlidesData = [
       }
     ],
     taglineHtml: `<div class="ref-sub-line"><span class="sub-rule"></span><span class="sub-text">LAND BUILDS LEGACIES</span><span class="sub-rule"></span></div>`,
-    image: '/images/ref/hero-plots.jpg',
+    image: heroPlots,
     imageTagline: 'Land for Generations',
     floatingCardText: 'Strategic Locations Stronger Futures'
   },
@@ -123,7 +128,7 @@ export const heroSlidesData = [
       }
     ],
     taglineHtml: `<div class="ref-sub-line"><span class="sub-rule"></span><span class="sub-text">HOMES THAT GROW WITH YOU</span><span class="sub-rule"></span></div>`,
-    image: '/images/ref/hero-apts.jpg',
+    image: heroApartments,
     imageTagline: 'Live Better Every Day',
     floatingCardText: 'Sustainable Communities Stronger Tomorrows'
   }
@@ -230,14 +235,28 @@ export function renderHero() {
 }
 
 export function initHeroSlider() {
+  // Clean up any existing hero autoplay timer to prevent multiple intervals running simultaneously
+  if (window.__heroAutoplayTimer) {
+    clearInterval(window.__heroAutoplayTimer);
+    window.__heroAutoplayTimer = null;
+  }
+
   const slides = document.querySelectorAll('.ref-hero-slide');
   const dots = document.querySelectorAll('.ref-hero-dot');
   const arrows = document.querySelectorAll('.ref-hero-nav-arrow');
+  const section = document.getElementById('ref-hero-section');
 
   if (!slides.length) return;
 
   let currentIndex = 0;
-  let autoplayTimer = null;
+  const AUTOPLAY_INTERVAL = 4000; // 4 seconds per slide
+
+  // Detect current active slide index if set in markup
+  slides.forEach((slide, idx) => {
+    if (slide.classList.contains('active')) {
+      currentIndex = idx;
+    }
+  });
 
   const showSlide = (index) => {
     slides.forEach(s => s.classList.remove('active'));
@@ -254,9 +273,29 @@ export function initHeroSlider() {
   const nextSlide = () => showSlide(currentIndex + 1);
   const prevSlide = () => showSlide(currentIndex - 1);
 
+  const stopAutoplay = () => {
+    if (window.__heroAutoplayTimer) {
+      clearInterval(window.__heroAutoplayTimer);
+      window.__heroAutoplayTimer = null;
+    }
+  };
+
+  const startAutoplay = () => {
+    stopAutoplay();
+    const isHovered = section ? section.matches(':hover') : false;
+    if (!isHovered) {
+      window.__heroAutoplayTimer = setInterval(nextSlide, AUTOPLAY_INTERVAL);
+    }
+  };
+
+  const resetAutoplay = () => {
+    stopAutoplay();
+    startAutoplay();
+  };
+
   // Setup click events on all arrows across slides
   arrows.forEach(btn => {
-    btn.addEventListener('click', (e) => {
+    btn.onclick = (e) => {
       e.preventDefault();
       e.stopPropagation();
       const action = btn.getAttribute('data-action');
@@ -266,42 +305,28 @@ export function initHeroSlider() {
         nextSlide();
       }
       resetAutoplay();
-    });
+    };
   });
 
   // Setup click events on dots
   dots.forEach(dot => {
-    dot.addEventListener('click', (e) => {
+    dot.onclick = (e) => {
       e.preventDefault();
       const idx = parseInt(dot.getAttribute('data-index'), 10);
       showSlide(idx);
       resetAutoplay();
-    });
+    };
   });
 
-  const startAutoplay = () => {
-    if (!autoplayTimer) {
-      autoplayTimer = setInterval(nextSlide, 7000);
-    }
-  };
-
-  const stopAutoplay = () => {
-    if (autoplayTimer) {
-      clearInterval(autoplayTimer);
-      autoplayTimer = null;
-    }
-  };
-
-  const resetAutoplay = () => {
-    stopAutoplay();
-    startAutoplay();
-  };
-
-  const section = document.getElementById('ref-hero-section');
   if (section) {
-    section.addEventListener('mouseenter', stopAutoplay);
-    section.addEventListener('mouseleave', startAutoplay);
+    section.onmouseenter = () => {
+      stopAutoplay();
+    };
+    section.onmouseleave = () => {
+      startAutoplay();
+    };
   }
 
+  // Start initial autoplay timer
   startAutoplay();
 }
