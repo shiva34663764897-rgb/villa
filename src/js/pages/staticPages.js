@@ -44,12 +44,12 @@ export function renderStaticPage(title, subtitle, contentHtml, currentPath = '#/
 
 export function renderAboutPage() {
   return renderStaticPage(
-    'ABOUT KSV PROPERTIES',
+    'ABOUT VR REAL ESTATES',
     'Find Your Dream Asset with complete confidence, transparency, and legal due diligence.',
     `
       <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: #0e4b9e; margin-bottom: 16px;">Who We Are</h2>
       <p style="margin-bottom: 20px;">
-        KSV Properties is a premier real estate advisory and land acquisition company operating across prime corridors in Telangana and Andhra Pradesh. Built on principles of transparency, trust, and verified documentation, we assist individual home seekers, NRI investors, and institutional clients in identifying high-growth land assets and luxury properties.
+        VR Real Estates is a premier real estate advisory and land acquisition company operating across prime corridors in Telangana and Andhra Pradesh. Built on principles of transparency, trust, and verified documentation, we assist individual home seekers, NRI investors, and institutional clients in identifying high-growth land assets and luxury properties.
       </p>
       <h3 style="font-family: var(--font-heading); font-size: 1.4rem; color: #1e293b; margin-top: 30px; margin-bottom: 14px;">Our Core Expertise</h3>
       <ul style="padding-left: 20px; margin-bottom: 24px;">
@@ -98,7 +98,7 @@ export function renderServicesPage() {
 export function renderContactPage() {
   return renderStaticPage(
     'CONTACT US',
-    'Get in touch with KSV Properties advisors for plots, villas, and site visits.',
+    'Get in touch with VR Real Estates advisors for plots, villas, and site visits.',
     `
       <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px;">
         <div>
@@ -132,7 +132,7 @@ export function renderContactPage() {
         <div style="background: #f8fafc; border-radius: 12px; padding: 28px; border: 1px solid #e2e8f0;">
           <h3 style="font-family: var(--font-heading); font-size: 1.3rem; color: #1e293b; margin-bottom: 20px;">Direct Contact</h3>
           <p style="margin-bottom: 14px;"><strong>📞 Phone:</strong> <a href="tel:+919490634829" style="color: #0e4b9e; font-weight: 600;">+91-9490-634829</a></p>
-          <p style="margin-bottom: 14px;"><strong>✉️ Email:</strong> <a href="mailto:info@ksvproperties.com" style="color: #0e4b9e; font-weight: 600;">info@ksvproperties.com</a></p>
+          <p style="margin-bottom: 14px;"><strong>✉️ Email:</strong> <a href="mailto:info@vrrealestates.com" style="color: #0e4b9e; font-weight: 600;">info@vrrealestates.com</a></p>
           <p style="margin-bottom: 14px;"><strong>📍 Locations:</strong> Hyderabad, Shadnagar, Amaravati &amp; Visakhapatnam</p>
           <div style="margin-top: 24px;">
             <a href="https://wa.me/919490634829" target="_blank" class="btn-whatsapp-enquiry" style="text-decoration: none;">
@@ -214,7 +214,7 @@ export function renderCategoryListingPage(type = 'villas') {
 
   return renderStaticPage(
     title,
-    `Explore premium ${type} verified by KSV Properties.`,
+    `Explore premium ${type} verified by VR Real Estates.`,
     `
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px;">
         <div style="border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: var(--shadow-sm);">

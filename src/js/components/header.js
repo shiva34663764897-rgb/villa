@@ -96,7 +96,7 @@ export function renderHeader(options = {}) {
         <a href="#/contact" class="ref-mobile-link">Contact</a>
         <div class="ref-mobile-contact">
           <a href="tel:+919490634829" class="mobile-contact-item">📞 +91 94906 34829</a>
-          <a href="mailto:info@ksvproperties.com" class="mobile-contact-item">✉️ info@ksvproperties.com</a>
+          <a href="mailto:info@vrrealestates.com" class="mobile-contact-item">✉️ info@vrrealestates.com</a>
         </div>
       </div>
     </header>
