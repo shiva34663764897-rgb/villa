@@ -215,6 +215,15 @@ export function renderHero() {
 
   return `
     <section class="ref-hero-section" id="ref-hero-section">
+      <!-- SVG clip-path definition for organic hero image shape matching reference exactly -->
+      <svg width="0" height="0" style="position:absolute;">
+        <defs>
+          <clipPath id="hero-organic-clip" clipPathUnits="objectBoundingBox">
+            <path d="M 0.257,0 C 0.162,0 0.1061,0.0298 0.0838,0.0909 C 0.067,0.1364 0,0.2926 0,0.3849 C 0,0.4631 0.1006,0.7614 0.1464,0.8679 C 0.1687,0.9205 0.2011,1 0.257,1 L 0.95,1 Q 1,1 1,0.94 L 1,0.06 Q 1,0 0.95,0 Z" />
+          </clipPath>
+        </defs>
+      </svg>
+
       <!-- Background subtle leaves flourish -->
       <div class="ref-hero-bg-flourish"></div>
 
