@@ -158,12 +158,6 @@ export function renderFeaturedProperties() {
           </button>
         </div>
 
-        <!-- Carousel Indicators -->
-        <div class="ref-projects-dots" id="ref-projects-dots">
-          <span class="dot active"></span>
-          <span class="dot"></span>
-          <span class="dot"></span>
-        </div>
 
         <!-- View All Projects CTA -->
         <div class="ref-projects-cta-row">

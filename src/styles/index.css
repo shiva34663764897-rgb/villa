@@ -2641,6 +2641,14 @@ html, body {
     padding: 16px 0 24px;
     min-height: auto;
   }
+  .ref-hero-indicators,
+  .ref-projects-dots {
+    display: none !important;
+  }
+  .ref-hero-category {
+    margin-top: 0;
+    margin-bottom: 16px;
+  }
   .ref-hero-container {
     padding: 0 20px;
   }
