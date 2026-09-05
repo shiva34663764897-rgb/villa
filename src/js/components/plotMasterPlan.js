@@ -1,4 +1,6 @@
-// Interactive Plot Master Plan Component for VR Prime Meadows
+import { openSiteVisitFlow } from './sharedBookSiteVisit.js';
+
+// Interactive Plot Master Plan Component for VR Green Meadows / Open Plots
 
 export function renderPlotMasterPlan(project) {
   const plots = project.plots || [];
@@ -209,151 +211,18 @@ export function renderPlotMasterPlan(project) {
   `;
 }
 
-// Render Master Plan SVG with realistic grounds, roads, trees, amenities & plots
+// Render Master Plan SVG with authentic reference master plan artwork and interactive plots
 function renderMasterPlanSvg(plots, selectedPlotId, prefix = 'mp') {
   return `
-    <svg class="master-plan-svg" viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" id="${prefix}-svg">
+    <svg class="master-plan-svg" viewBox="0 0 704 600" xmlns="http://www.w3.org/2000/svg" id="${prefix}-svg">
       <defs>
-        <!-- Gradients & Patterns -->
-        <linearGradient id="${prefix}-grass" x1="0%" y1="0%" x2="100%" y2="100%">
-          <stop offset="0%" stop-color="#2D5A27" />
-          <stop offset="50%" stop-color="#1E3F1A" />
-          <stop offset="100%" stop-color="#142A12" />
-        </linearGradient>
-
-        <linearGradient id="${prefix}-road-grad" x1="0%" y1="0%" x2="100%" y2="0%">
-          <stop offset="0%" stop-color="#4B5563" />
-          <stop offset="50%" stop-color="#374151" />
-          <stop offset="100%" stop-color="#4B5563" />
-        </linearGradient>
-
-        <linearGradient id="${prefix}-plot-avail" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#C6E6B8" />
-          <stop offset="100%" stop-color="#A5D698" />
-        </linearGradient>
-
-        <linearGradient id="${prefix}-plot-res" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#FEE685" />
-          <stop offset="100%" stop-color="#FCD34D" />
-        </linearGradient>
-
-        <linearGradient id="${prefix}-plot-sold" x1="0%" y1="0%" x2="0%" y2="100%">
-          <stop offset="0%" stop-color="#FCA5A5" />
-          <stop offset="100%" stop-color="#F87171" />
-        </linearGradient>
-
         <filter id="${prefix}-glow" x="-20%" y="-20%" width="140%" height="140%">
-          <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#0284c7" flood-opacity="0.9"/>
+          <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#00C2FF" flood-opacity="0.9"/>
         </filter>
-
-        <pattern id="${prefix}-tree-pattern" width="20" height="20" patternUnits="userSpaceOnUse">
-          <circle cx="10" cy="10" r="8" fill="#1C4B18" opacity="0.8"/>
-          <circle cx="9" cy="9" r="6" fill="#2E7D32" opacity="0.9"/>
-          <circle cx="8" cy="8" r="3" fill="#66BB6A" opacity="0.8"/>
-        </pattern>
       </defs>
 
-      <!-- Base Ground Background (Landscape with Trees & Boundary) -->
-      <rect x="0" y="0" width="700" height="560" fill="url(#${prefix}-grass)" rx="12"/>
-
-      <!-- Outer Boundary & Trees Perimeter -->
-      <rect x="14" y="14" width="672" height="532" fill="none" stroke="#688E26" stroke-width="6" rx="8" stroke-dasharray="12 4"/>
-      <rect x="20" y="20" width="660" height="30" fill="url(#${prefix}-tree-pattern)"/>
-      <rect x="20" y="510" width="660" height="30" fill="url(#${prefix}-tree-pattern)"/>
-      <rect x="20" y="50" width="30" height="460" fill="url(#${prefix}-tree-pattern)"/>
-      <rect x="650" y="50" width="30" height="460" fill="url(#${prefix}-tree-pattern)"/>
-
-      <!-- Inner Layout Grounds -->
-      <rect x="60" y="60" width="580" height="440" fill="#244D20" rx="6"/>
-
-      <!-- Left Amenities Zone (Park, Clubhouse, Kids Play Area) -->
-      <!-- Park -->
-      <g class="amenity-zone" id="zone-park">
-        <rect x="75" y="80" width="135" height="155" rx="8" fill="#1E5C1B" stroke="#4CAF50" stroke-width="2"/>
-        <!-- Trees inside park -->
-        <circle cx="105" cy="115" r="14" fill="#388E3C"/>
-        <circle cx="103" cy="113" r="10" fill="#81C784"/>
-        <circle cx="160" cy="110" r="16" fill="#2E7D32"/>
-        <circle cx="158" cy="108" r="12" fill="#66BB6A"/>
-        <circle cx="120" cy="180" r="18" fill="#388E3C"/>
-        <circle cx="118" cy="177" r="14" fill="#81C784"/>
-        <circle cx="170" cy="175" r="14" fill="#2E7D32"/>
-        <!-- Walking track -->
-        <path d="M 95 100 Q 140 85 180 100 T 180 200 T 95 200 Z" fill="none" stroke="#D7CCC8" stroke-width="4" stroke-dasharray="6 3"/>
-        <rect x="110" y="140" width="65" height="24" rx="4" fill="rgba(15, 38, 28, 0.85)"/>
-        <text x="142" y="156" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1">PARK</text>
-      </g>
-
-      <!-- Clubhouse Zone -->
-      <g class="amenity-zone" id="zone-clubhouse">
-        <rect x="75" y="250" width="135" height="140" rx="8" fill="#1A3828" stroke="#D4AF37" stroke-width="2"/>
-        <rect x="90" y="265" width="105" height="85" rx="6" fill="#254E35" stroke="#E6C65A" stroke-width="1.5"/>
-        <!-- Pool inside clubhouse -->
-        <rect x="100" y="275" width="45" height="30" rx="4" fill="#38BDF8" stroke="#0284C7" stroke-width="1.5"/>
-        <text x="122" y="294" fill="#0369A1" font-size="8" font-weight="700" text-anchor="middle">POOL</text>
-        <rect x="100" y="360" width="85" height="20" rx="4" fill="rgba(15, 38, 28, 0.9)"/>
-        <text x="142" y="374" fill="#D4AF37" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1">CLUBHOUSE</text>
-      </g>
-
-      <!-- Kids Play Area Zone -->
-      <g class="amenity-zone" id="zone-play-area">
-        <rect x="75" y="405" width="135" height="80" rx="8" fill="#1E472A" stroke="#F59E0B" stroke-width="2"/>
-        <circle cx="110" cy="445" r="14" fill="#FBBF24" opacity="0.4"/>
-        <circle cx="165" cy="445" r="14" fill="#F472B6" opacity="0.4"/>
-        <rect x="90" y="450" width="105" height="20" rx="4" fill="rgba(15, 38, 28, 0.85)"/>
-        <text x="142" y="464" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="0.5">KIDS PLAY AREA</text>
-      </g>
-
-      <!-- ROADS NETWORK -->
-      <!-- Vertical Divider Road Left (30 FT WIDE ROAD) -->
-      <rect x="220" y="70" width="26" height="420" fill="#374151"/>
-      <line x1="233" y1="70" x2="233" y2="490" stroke="#F3F4F6" stroke-width="1.5" stroke-dasharray="8 6"/>
-      <text x="233" y="280" fill="#E5E7EB" font-size="8" font-weight="700" text-anchor="middle" transform="rotate(-90 233 280)" letter-spacing="2">30 FT WIDE ROAD</text>
-
-      <!-- Vertical Divider Road Right (30 FT WIDE ROAD) -->
-      <rect x="444" y="70" width="26" height="420" fill="#374151"/>
-      <line x1="457" y1="70" x2="457" y2="490" stroke="#F3F4F6" stroke-width="1.5" stroke-dasharray="8 6"/>
-      <text x="457" y="280" fill="#E5E7EB" font-size="8" font-weight="700" text-anchor="middle" transform="rotate(90 457 280)" letter-spacing="2">30 FT WIDE ROAD</text>
-
-      <!-- North Main Road (40 FT WIDE ROAD) -->
-      <rect x="246" y="215" width="198" height="24" fill="#374151"/>
-      <line x1="246" y1="227" x2="444" y2="227" stroke="#F3F4F6" stroke-width="1.5" stroke-dasharray="8 6"/>
-      <text x="345" y="231" fill="#F3F4F6" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="2">40 FT WIDE ROAD</text>
-
-      <!-- Middle Cross Road (30 FT WIDE ROAD) -->
-      <rect x="246" y="310" width="198" height="20" fill="#374151"/>
-      <line x1="246" y1="320" x2="444" y2="320" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="6 4"/>
-      <text x="345" y="324" fill="#F3F4F6" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="2">30 FT WIDE ROAD</text>
-
-      <!-- South Cross Road (30 FT WIDE ROAD) -->
-      <rect x="246" y="384" width="198" height="20" fill="#374151"/>
-      <line x1="246" y1="394" x2="444" y2="394" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="6 4"/>
-      <text x="345" y="398" fill="#F3F4F6" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="2">30 FT WIDE ROAD</text>
-
-      <!-- North Top Road (60 FT WIDE HIGHWAY CONNECTOR) -->
-      <rect x="220" y="55" width="250" height="22" fill="#1F2937"/>
-      <text x="345" y="70" fill="#9CA3AF" font-size="8" font-weight="600" text-anchor="middle" letter-spacing="1">NORTH AVENUE &bull; 60 FT ROAD</text>
-
-      <!-- East Boundary Greenery / Landscape Buffer -->
-      <g class="east-sector">
-        <rect x="478" y="75" width="150" height="410" rx="6" fill="#1B4217" stroke="#34D399" stroke-width="1" stroke-dasharray="4 2"/>
-        <circle cx="510" cy="120" r="14" fill="#2E7D32"/>
-        <circle cx="580" cy="150" r="16" fill="#388E3C"/>
-        <circle cx="530" cy="240" r="18" fill="#2E7D32"/>
-        <circle cx="600" cy="310" r="15" fill="#388E3C"/>
-        <circle cx="520" cy="390" r="16" fill="#2E7D32"/>
-        <rect x="495" y="270" width="115" height="24" rx="4" fill="rgba(15, 38, 28, 0.85)"/>
-        <text x="552" y="286" fill="#A7F3D0" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="1">FUTURE PHASE II</text>
-      </g>
-
-      <!-- MAIN ENTRANCE ARCH (Bottom) -->
-      <g class="main-entrance-group">
-        <rect x="200" y="480" width="140" height="35" rx="4" fill="#111827" stroke="#D4AF37" stroke-width="2"/>
-        <rect x="235" y="475" width="70" height="10" rx="2" fill="#D4AF37"/>
-        <text x="270" y="502" fill="#FBBF24" font-size="10" font-weight="800" text-anchor="middle" letter-spacing="1.5">MAIN ENTRANCE</text>
-        <circle cx="215" cy="497" r="4" fill="#34D399"/>
-        <circle cx="325" cy="497" r="4" fill="#34D399"/>
-      </g>
+      <!-- Exact Master Plan Reference Artwork -->
+      <image href="/images/journey/master_plan_base.jpg" x="0" y="0" width="704" height="600" preserveAspectRatio="none" />
 
       <!-- INTERACTIVE PLOTS GRID -->
       <g class="plots-layer" id="${prefix}-plots-group">
@@ -527,17 +396,17 @@ export function renderPlotDetailsContent(plot, projectName, isFullscreen = false
 
       <!-- Action Buttons -->
       <div class="pd-actions">
-        <button type="button" class="pd-btn primary-choose" onclick="window.openSiteVisitModal('${projectName} - Plot ${plot.num}')">
+        <button type="button" class="pd-btn primary-choose" onclick="window.openPlotSiteVisit('${plot.id}')">
           <span>Choose This Plot</span>
           <span class="btn-arrow">&rarr;</span>
         </button>
 
-        <button type="button" class="pd-btn secondary-visit" onclick="window.openSiteVisitModal('${projectName} - Plot ${plot.num}')">
+        <button type="button" class="pd-btn secondary-visit" onclick="window.openPlotSiteVisit('${plot.id}')">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
           <span>Book a Site Visit</span>
         </button>
 
-        <a href="https://maps.google.com" target="_blank" rel="noopener" class="pd-btn flat-maps">
+        <a href="https://maps.google.com/?q=Shadnagar+Hyderabad" target="_blank" rel="noopener" class="pd-btn flat-maps">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
           <span>View on Google Maps</span>
         </a>
@@ -552,6 +421,27 @@ export function initPlotMasterPlan(project) {
   const plots = project.plots || [];
   let currentZoom = 1;
   let currentFsZoom = 1;
+
+  window.openPlotSiteVisit = function(plotId) {
+    const plot = (plots || []).find(p => p.id === plotId) || plots[0];
+    if (!plot) return;
+    openSiteVisitFlow({
+      id: plot.id,
+      projectName: project.name || 'VR Green Meadows',
+      unitName: `Plot ${plot.num} (${plot.size} Sq.Yds)`,
+      location: project.location || 'Shadnagar, Hyderabad',
+      price: plot.price,
+      priceSub: `(${plot.rate})`,
+      size: `${plot.size} Sq.Yds`,
+      facing: `${plot.facing} Facing`,
+      beds: `${plot.road} Road`,
+      baths: plot.approval,
+      balconies: plot.location,
+      status: plot.status.charAt(0).toUpperCase() + plot.status.slice(1),
+      image: '/images/journey/gallery_entrance.jpg',
+      thumb: '/images/journey/gallery_entrance.jpg'
+    }, 'form');
+  };
 
   const canvasTransform = document.getElementById('mp-canvas-transform');
   const fsCanvasTransform = document.getElementById('fs-canvas-transform');

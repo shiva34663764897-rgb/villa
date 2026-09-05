@@ -38,7 +38,7 @@ export function renderHeader(options = {}) {
           <span>info@vrrealestates.com</span>
         </a>
       </div>
-      <button class="header-enquire-btn" onclick="window.openSiteVisitModal ? window.openSiteVisitModal('VR Header') : alert('Site Visit / Enquiry')">
+      <button class="header-enquire-btn" onclick="window.openSiteVisitFlow ? window.openSiteVisitFlow(null, 'form') : window.openSiteVisitModal('VR Header')">
         Enquire Now &rarr;
       </button>
     `;

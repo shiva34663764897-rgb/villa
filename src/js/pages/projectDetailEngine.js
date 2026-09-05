@@ -266,7 +266,7 @@ export function renderProjectDetail(projectId) {
               <p class="cta-banner-sub">${project.cta.subtitle}</p>
             </div>
             <div class="cta-banner-action">
-              <button class="cta-banner-gold-btn" onclick="window.openSiteVisitModal('${project.name}')">
+              <button class="cta-banner-gold-btn" onclick="window.openSiteVisitFlow ? window.openSiteVisitFlow({ projectName: '${project.name}', unitName: 'Plot Selection', location: 'Shadnagar, Hyderabad', price: '₹ 32,00,000', image: '/images/journey/gallery_entrance.jpg', thumb: '/images/journey/gallery_entrance.jpg' }, 'form') : window.openSiteVisitModal('${project.name}')">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
                 <span>${project.cta.btnText}</span>
               </button>
@@ -317,93 +317,12 @@ export function renderProjectDetail(projectId) {
   };
 }
 
-// Helper SVG generator for Schematic Route Connectivity Map
+// Helper generator for Location & Connectivity Map using authentic reference asset
 function renderSchematicMapSvg(projectName) {
   return `
-    <svg viewBox="0 0 380 240" class="schematic-svg" xmlns="http://www.w3.org/2000/svg">
-      <defs>
-        <filter id="node-shadow" x="-20%" y="-20%" width="140%" height="140%">
-          <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
-        </filter>
-      </defs>
-
-      <!-- Background Soft Map Grid -->
-      <rect width="380" height="240" fill="#F8FAFC" rx="10"/>
-      <path d="M 0 60 L 380 60 M 0 120 L 380 120 M 0 180 L 380 180" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
-      <path d="M 90 0 L 90 240 M 190 0 L 190 240 M 290 0 L 290 240" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
-
-      <!-- Connecting Road Corridors -->
-      <!-- Airport to Project -->
-      <line x1="95" y1="55" x2="165" y2="135" stroke="#0284C7" stroke-width="3.5" stroke-linecap="round"/>
-      <line x1="95" y1="55" x2="165" y2="135" stroke="#BAE6FD" stroke-width="1" stroke-dasharray="4 3"/>
-
-      <!-- ORR to Project -->
-      <line x1="265" y1="55" x2="165" y2="135" stroke="#10B981" stroke-width="3.5" stroke-linecap="round"/>
-      <line x1="265" y1="55" x2="165" y2="135" stroke="#D1FAE5" stroke-width="1" stroke-dasharray="4 3"/>
-
-      <!-- Bus Stand to Project -->
-      <line x1="75" y1="170" x2="165" y2="135" stroke="#EF4444" stroke-width="3.5" stroke-linecap="round"/>
-
-      <!-- Town to Project -->
-      <line x1="105" y1="215" x2="165" y2="135" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
-
-      <!-- NH-44 to Project -->
-      <line x1="265" y1="195" x2="165" y2="135" stroke="#059669" stroke-width="3.5" stroke-linecap="round"/>
-
-      <!-- NODE 1: Airport (Top Left) -->
-      <g transform="translate(40, 30)" filter="url(#node-shadow)">
-        <rect width="110" height="42" rx="8" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
-        <circle cx="20" cy="21" r="12" fill="#0284C7"/>
-        <path d="M 15 21 L 25 21 M 21 17 L 25 21 L 21 25" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
-        <text x="38" y="16" fill="#0F172A" font-size="8.5" font-weight="700">Rajiv Gandhi Int. Airport</text>
-        <text x="38" y="27" fill="#0284C7" font-size="8" font-weight="800">25 km</text>
-        <text x="65" y="27" fill="#64748B" font-size="7.5">(30 mins)</text>
-      </g>
-
-      <!-- NODE 2: ORR (Top Right) -->
-      <g transform="translate(230, 30)" filter="url(#node-shadow)">
-        <rect width="115" height="42" rx="8" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
-        <circle cx="20" cy="21" r="12" fill="#10B981"/>
-        <circle cx="20" cy="21" r="6" fill="#FFFFFF"/>
-        <text x="38" y="16" fill="#0F172A" font-size="8.5" font-weight="700">Outer Ring Road (ORR)</text>
-        <text x="38" y="27" fill="#059669" font-size="8" font-weight="800">12 km</text>
-        <text x="65" y="27" fill="#64748B" font-size="7.5">(20 mins)</text>
-      </g>
-
-      <!-- NODE 3: Shadnagar Bus Stand (Middle Left) -->
-      <g transform="translate(15, 140)" filter="url(#node-shadow)">
-        <rect width="90" height="40" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5"/>
-        <circle cx="18" cy="20" r="10" fill="#EF4444"/>
-        <text x="34" y="15" fill="#0F172A" font-size="8" font-weight="700">Bus Stand</text>
-        <text x="34" y="26" fill="#DC2626" font-size="7.5" font-weight="800">8 km <tspan fill="#64748B" font-weight="500">(15m)</tspan></text>
-      </g>
-
-      <!-- NODE 4: Shadnagar Town (Bottom Left) -->
-      <g transform="translate(50, 195)" filter="url(#node-shadow)">
-        <rect width="90" height="38" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
-        <circle cx="18" cy="19" r="10" fill="#3B82F6"/>
-        <text x="34" y="14" fill="#0F172A" font-size="8" font-weight="700">Town Center</text>
-        <text x="34" y="25" fill="#2563EB" font-size="7.5" font-weight="800">8 km <tspan fill="#64748B" font-weight="500">(15m)</tspan></text>
-      </g>
-
-      <!-- NODE 5: NH-44 Highway (Bottom Right) -->
-      <g transform="translate(230, 175)" filter="url(#node-shadow)">
-        <rect width="90" height="40" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
-        <circle cx="18" cy="20" r="10" fill="#059669"/>
-        <text x="34" y="15" fill="#0F172A" font-size="8" font-weight="700">NH-44 Highway</text>
-        <text x="34" y="26" fill="#047857" font-size="7.5" font-weight="800">8 km <tspan fill="#64748B" font-weight="500">(15m)</tspan></text>
-      </g>
-
-      <!-- CENTER HUB NODE: Project Destination -->
-      <g transform="translate(130, 115)" filter="url(#node-shadow)">
-        <rect width="115" height="42" rx="21" fill="#1A3B2B" stroke="#D4AF37" stroke-width="2"/>
-        <circle cx="21" cy="21" r="13" fill="#D4AF37"/>
-        <path d="M 21 14 C 18 14 16 16.5 16 19 C 16 23 21 27 21 27 C 21 27 26 23 26 19 C 26 16.5 24 14 21 14 Z" fill="#1A3B2B"/>
-        <circle cx="21" cy="19" r="2" fill="#D4AF37"/>
-        <text x="40" y="25" fill="#FFFFFF" font-size="9" font-weight="800" letter-spacing="0.5">${projectName.split(' ')[0]} ${projectName.split(' ')[1] || ''}</text>
-      </g>
-
-    </svg>
+    <div style="width: 100%; height: 100%; min-height: 240px; display: flex; align-items: center; justify-content: center; background: #F8FAFC; border-radius: 10px; overflow: hidden;">
+      <img src="/images/journey/plot_location_map.jpg" alt="${projectName} Location & Connectivity" style="width: 100%; height: 100%; max-height: 280px; object-fit: contain; display: block;" />
+    </div>
   `;
 }
 

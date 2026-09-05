@@ -2,6 +2,7 @@ import { renderHomePage } from './pages/home.js';
 import { renderOpenPlotsPage } from './pages/openPlots.js';
 import { renderPropertyDetailPage } from './pages/propertyDetail.js';
 import { renderProjectDetail } from './pages/projectDetailEngine.js';
+import { renderApartmentsPage } from './pages/apartmentsJourney.js';
 import {
   renderAboutPage,
   renderServicesPage,
@@ -12,24 +13,27 @@ import {
   renderStaticPage
 } from './pages/staticPages.js';
 import './components/siteVisitModal.js';
+import './components/sharedBookSiteVisit.js';
 
 const routes = {
   '/': renderHomePage,
-  '/open-plots': renderOpenPlotsPage,
-  '/open-plots.html': renderOpenPlotsPage,
+  '/open-plots': () => renderProjectDetail('vr-green-meadows'),
+  '/open-plots.html': () => renderProjectDetail('vr-green-meadows'),
+  '/villas': () => renderProjectDetail('vr-green-meadows'),
+  '/vr-green-meadows': () => renderProjectDetail('vr-green-meadows'),
+  '/vr-prime-meadows': () => renderProjectDetail('vr-green-meadows'),
+  '/amodha': () => renderProjectDetail('vr-green-meadows'),
+  '/amodha.html': () => renderProjectDetail('vr-green-meadows'),
+  '/apartments': () => renderApartmentsPage('listing'),
+  '/vr-elite-towers': () => renderApartmentsPage('overview'),
   '/vr-green-villas': () => renderProjectDetail('vr-green-villas'),
-  '/vr-prime-meadows': () => renderProjectDetail('vr-prime-meadows'),
   '/vr-heights': () => renderProjectDetail('vr-heights'),
   '/vr-agro-lands': () => renderProjectDetail('vr-agro-lands'),
-  '/amodha': () => renderProjectDetail('vr-prime-meadows'),
-  '/amodha.html': () => renderProjectDetail('vr-prime-meadows'),
   '/about': renderAboutPage,
   '/services': renderServicesPage,
   '/resources': renderResourcesPage,
   '/media': renderMediaPage,
   '/contact': renderContactPage,
-  '/villas': () => renderCategoryListingPage('villas'),
-  '/apartments': () => renderCategoryListingPage('apartments'),
   '/farmlands': () => renderCategoryListingPage('farmlands'),
 };
 
