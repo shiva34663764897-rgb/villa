@@ -865,6 +865,72 @@ input, select, textarea {
   background: var(--c-green-deep);
 }
 
+/* Cursive Image Tagline Overlay */
+.ref-hero-image-tagline {
+  position: absolute;
+  top: 18%;
+  right: 8%;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.ref-hero-image-tagline-text {
+  font-family: var(--font-cursive);
+  font-size: 1.65rem;
+  font-weight: 600;
+  color: #3A5A40;
+  background: rgba(255, 255, 255, 0.65);
+  padding: 8px 18px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+  display: inline-block;
+  transform: rotate(-4deg);
+  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+}
+
+/* Floating Info Card Overlay */
+.ref-hero-floating-card {
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border-radius: 14px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  z-index: 20;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+  max-width: 220px;
+}
+
+.ref-hero-floating-card-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(197, 155, 63, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #C59B3F;
+}
+
+.ref-hero-floating-card-icon svg {
+  width: 18px;
+  height: 18px;
+  stroke: #C59B3F;
+}
+
+.ref-hero-floating-card-text {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #1A3B2B;
+  line-height: 1.35;
+}
+
 /* ==========================================================================
    3. EXPLORE OUR PROPERTIES SECTION
    ========================================================================== */
@@ -2570,11 +2636,20 @@ html, body {
   .ref-mobile-drawer {
     display: flex;
   }
-  
-  /* Hero Split - Mobile Vertical Order: Content -> CTAs -> Image */
+  /* Hero Split - Mobile Vertical Order: Content -> CTAs -> Benefits -> Image */
+  .ref-hero-section {
+    padding: 16px 0 24px;
+    min-height: auto;
+  }
+  .ref-hero-container {
+    padding: 0 20px;
+  }
+  .ref-hero-slider-track {
+    min-height: auto;
+  }
   .ref-hero-slide {
     grid-template-columns: 1fr;
-    gap: 24px;
+    gap: 0;
   }
   .ref-hero-slide.active {
     display: flex;
@@ -2588,18 +2663,105 @@ html, body {
   .ref-hero-right {
     order: 2;
     width: 100%;
-    margin-top: 12px;
+    margin-top: 16px;
   }
   .ref-hero-headline, .ref-hero-title {
     font-size: 2.2rem;
-    line-height: 1.25;
+    line-height: 1.2;
     word-wrap: break-word;
+    margin-bottom: 14px;
+  }
+  .ref-hero-desc {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    max-width: 100%;
+  }
+  .ref-hero-ctas {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .ref-hero-btn-primary, .ref-hero-btn-secondary {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 0.95rem;
+    border-radius: var(--radius-pill);
+    box-sizing: border-box;
+  }
+  .ref-hero-benefits {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 0;
+    border-top: 1px solid #ECE7DE;
+    margin-bottom: 16px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .ref-benefit-item {
+    flex: 1;
+    min-width: 0;
+    gap: 8px;
+  }
+  .ref-benefit-icon-circle {
+    width: 34px;
+    height: 34px;
+    flex-shrink: 0;
+  }
+  .ref-benefit-label {
+    font-size: 0.75rem;
+  }
+  .ref-hero-tagline-wrap {
+    display: none;
   }
   .ref-hero-visual-container {
-    height: 320px;
+    height: 380px;
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
+    clip-path: none;
+    border-radius: 24px;
+  }
+  .ref-hero-main-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-position: center center;
+  }
+  .ref-hero-image-tagline {
+    top: 12%;
+    right: 5%;
+  }
+  .ref-hero-image-tagline-text {
+    font-size: 1.25rem;
+    padding: 6px 14px;
+  }
+  .ref-hero-floating-card {
+    bottom: 16px;
+    right: 12px;
+    padding: 10px 14px;
+    max-width: 190px;
+    border-radius: 12px;
+  }
+  .ref-hero-floating-card-text {
+    font-size: 0.75rem;
+  }
+  .ref-hero-arrows-overlay {
+    bottom: 16px;
+    left: 16px;
+  }
+  .ref-hero-nav-arrow {
+    width: 40px;
+    height: 40px;
+  }
+  .ref-hero-bg-flourish {
+    display: none;
   }
   
   /* Find Split */
@@ -2637,49 +2799,33 @@ html, body {
     margin-top: 8px;
   }
 
-  /* Hero Section */
+  /* Hero Section - smaller screen refinements */
   .ref-hero-section {
-    padding: 16px 0 32px;
+    padding: 12px 0 28px;
+  }
+  .ref-hero-container {
+    padding: 0 16px;
   }
   .ref-hero-headline, .ref-hero-title {
     font-size: 1.95rem;
-    line-height: 1.25;
+    line-height: 1.2;
   }
   .ref-hero-desc {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1.5;
-    margin-bottom: 18px;
-  }
-  .ref-hero-ctas {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 12px;
-    width: 100%;
-  }
-  .ref-hero-btn-primary, .ref-hero-btn-secondary {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    padding: 14px 20px;
-    font-size: 0.95rem;
-    border-radius: var(--radius-pill);
-    box-sizing: border-box;
-  }
-  .ref-hero-benefits {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 14px;
-    border-radius: 14px;
+    margin-bottom: 16px;
   }
   .ref-hero-visual-container {
-    height: 280px;
-    clip-path: none;
-    border-radius: 18px;
+    height: 340px;
+    border-radius: 20px;
   }
   .ref-hero-arrows-overlay {
-    bottom: 12px;
+    bottom: 14px;
     left: 14px;
+  }
+  .ref-hero-nav-arrow {
+    width: 38px;
+    height: 38px;
   }
   
   /* Explore & Featured & Location Cards */
@@ -2821,7 +2967,37 @@ html, body {
     font-size: 1.65rem;
   }
   .ref-hero-visual-container {
-    height: 250px;
+    height: 300px;
+    border-radius: 18px;
+  }
+  .ref-hero-benefits {
+    gap: 10px;
+  }
+  .ref-benefit-icon-circle {
+    width: 30px;
+    height: 30px;
+  }
+  .ref-benefit-label {
+    font-size: 0.7rem;
+  }
+  .ref-hero-image-tagline-text {
+    font-size: 1.05rem;
+    padding: 5px 10px;
+  }
+  .ref-hero-floating-card {
+    padding: 8px 12px;
+    max-width: 170px;
+  }
+  .ref-hero-floating-card-icon {
+    width: 30px;
+    height: 30px;
+  }
+  .ref-hero-floating-card-text {
+    font-size: 0.7rem;
+  }
+  .ref-hero-nav-arrow {
+    width: 36px;
+    height: 36px;
   }
   .ref-find-visual-frame, .find-visual-img {
     height: 240px;

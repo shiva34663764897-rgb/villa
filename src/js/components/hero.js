@@ -194,6 +194,19 @@ export function renderHero() {
           <div class="ref-hero-visual-container">
             <img src="${slide.image}" alt="${slide.category}" class="ref-hero-main-img" />
             
+            <!-- Cursive Image Tagline Overlay -->
+            <div class="ref-hero-image-tagline">
+              <span class="ref-hero-image-tagline-text">${slide.imageTagline}</span>
+            </div>
+
+            <!-- Floating Info Card Overlay -->
+            <div class="ref-hero-floating-card">
+              <div class="ref-hero-floating-card-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div class="ref-hero-floating-card-text">${slide.floatingCardText}</div>
+            </div>
+
             <!-- Interactive Arrow Controls Overlay matching screenshot placement -->
             <div class="ref-hero-arrows-overlay">
               <button class="ref-hero-nav-arrow prev" aria-label="Previous Slide" data-action="prev">

@@ -102,6 +102,15 @@
     </header>
   `}function t(){let e=document.getElementById(`main-header`),t=document.getElementById(`ref-mobile-toggle`),n=document.getElementById(`ref-mobile-drawer`);if(t&&n&&(t.addEventListener(`click`,()=>{n.classList.toggle(`open`),t.classList.toggle(`active`)}),n.querySelectorAll(`a`).forEach(e=>{e.addEventListener(`click`,()=>{n.classList.remove(`open`),t.classList.remove(`active`)})})),e){let t=()=>{window.scrollY>20?e.classList.add(`scrolled`):e.classList.remove(`scrolled`)};window.removeEventListener(`scroll`,t),window.addEventListener(`scroll`,t,{passive:!0})}}var n=[{id:`farmlands`,category:`FARM LANDS`,categoryIcon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>`,titleLine1:`A Greener<br/>Tomorrow,`,titleLine2:`A Wiser Investment`,desc:`Managed farm lands that bring you closer to nature and long-term value.`,primaryCta:`Explore Farm Lands`,primaryLink:`#/farmlands`,secondaryCta:`Talk to an Expert`,benefits:[{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/></svg>`,title:`Clean &`,subtitle:`Green Living`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`,title:`High Growth`,subtitle:`Potential`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>`,title:`Transparent`,subtitle:`& Secure`}],taglineHtml:`<span class="ref-handwritten">Land for a Better Life</span>`,image:`/assets/hero-farm-B4nyslIM.jpeg`,imageTagline:`Invest in a Healthier Tomorrow`,floatingCardText:`Nature Generates Wealth`},{id:`villas`,category:`LUXURY VILLAS`,categoryIcon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>`,titleLine1:`Your Dream<br/>Home, A Brighter`,titleLine2:`Tomorrow`,desc:`Thoughtfully designed villas that offer modern living, more space and a better future for you and your family.`,primaryCta:`Explore Villas`,primaryLink:`#/villas`,secondaryCta:`Talk to an Expert`,benefits:[{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/></svg>`,title:`Spacious`,subtitle:`Living`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 11 12 14 22 4"></polyline></svg>`,title:`Prime`,subtitle:`Locations`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`,title:`Trusted`,subtitle:`Investment`}],taglineHtml:`<span class="ref-handwritten">Spaces for a Better Tomorrow</span>`,image:`/assets/hero-villa-DU8CdqJJ.jpeg`,imageTagline:`Live Greener Own Greater`,floatingCardText:`Modern Homes for a Healthier Tomorrow`},{id:`openplots`,category:`OPEN PLOTS`,categoryIcon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>`,titleLine1:`Invest in Land,<br/>Invest in a`,titleLine2:`Better Tomorrow`,desc:`HMDA & DTCP approved open plots in fast-growing corridors of Telangana & Andhra Pradesh.`,primaryCta:`Explore Open Plots`,primaryLink:`#/open-plots`,secondaryCta:`Talk to an Expert`,benefits:[{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/></svg>`,title:`Prime`,subtitle:`Locations`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>`,title:`High Growth`,subtitle:`Potential`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 11 12 14 22 4"></polyline></svg>`,title:`Clear Titles`,subtitle:`& Secure Investment`}],taglineHtml:`<div class="ref-sub-line"><span class="sub-rule"></span><span class="sub-text">LAND BUILDS LEGACIES</span><span class="sub-rule"></span></div>`,image:`/assets/hero-apartments-DS1lQdKG.jpeg`,imageTagline:`Land for Generations`,floatingCardText:`Strategic Locations Stronger Futures`},{id:`apartments`,category:`PREMIUM APARTMENTS`,categoryIcon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect><line x1="9" y1="22" x2="9" y2="2"></line><line x1="8" y1="6" x2="8" y2="6.01"></line><line x1="16" y1="6" x2="16" y2="6.01"></line><line x1="8" y1="10" x2="8" y2="10.01"></line><line x1="16" y1="10" x2="16" y2="10.01"></line><line x1="8" y1="14" x2="8" y2="14.01"></line><line x1="16" y1="14" x2="16" y2="14.01"></line><line x1="8" y1="18" x2="8" y2="18.01"></line><line x1="16" y1="18" x2="16" y2="18.01"></line></svg>`,titleLine1:`Elevated Living,`,titleLine2:`A Brighter Future`,desc:`Modern 2 & 3 BHK apartments with world-class amenities in prime locations.`,primaryCta:`Explore Apartments`,primaryLink:`#/apartments`,secondaryCta:`Talk to an Expert`,benefits:[{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>`,title:`Modern`,subtitle:`Amenities`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>`,title:`Prime`,subtitle:`Locations`},{icon:`<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path><polyline points="9 11 12 14 22 4"></polyline></svg>`,title:`Trusted`,subtitle:`Investment`}],taglineHtml:`<div class="ref-sub-line"><span class="sub-rule"></span><span class="sub-text">HOMES THAT GROW WITH YOU</span><span class="sub-rule"></span></div>`,image:`/assets/hero-plots-DMKDzuCp.jpeg`,imageTagline:`Live Better Every Day`,floatingCardText:`Sustainable Communities Stronger Tomorrows`}];function r(){return`
     <section class="ref-hero-section" id="ref-hero-section">
+      <!-- SVG clip-path definition for organic hero image shape matching reference exactly -->
+      <svg width="0" height="0" style="position:absolute;">
+        <defs>
+          <clipPath id="hero-organic-clip" clipPathUnits="objectBoundingBox">
+            <path d="M 0.257,0 C 0.162,0 0.1061,0.0298 0.0838,0.0909 C 0.067,0.1364 0,0.2926 0,0.3849 C 0,0.4631 0.1006,0.7614 0.1464,0.8679 C 0.1687,0.9205 0.2011,1 0.257,1 L 0.95,1 Q 1,1 1,0.94 L 1,0.06 Q 1,0 0.95,0 Z" />
+          </clipPath>
+        </defs>
+      </svg>
+
       <!-- Background subtle leaves flourish -->
       <div class="ref-hero-bg-flourish"></div>
 
@@ -165,6 +174,19 @@
           <div class="ref-hero-visual-container">
             <img src="${e.image}" alt="${e.category}" class="ref-hero-main-img" />
             
+            <!-- Cursive Image Tagline Overlay -->
+            <div class="ref-hero-image-tagline">
+              <span class="ref-hero-image-tagline-text">${e.imageTagline}</span>
+            </div>
+
+            <!-- Floating Info Card Overlay -->
+            <div class="ref-hero-floating-card">
+              <div class="ref-hero-floating-card-icon">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div class="ref-hero-floating-card-text">${e.floatingCardText}</div>
+            </div>
+
             <!-- Interactive Arrow Controls Overlay matching screenshot placement -->
             <div class="ref-hero-arrows-overlay">
               <button class="ref-hero-nav-arrow prev" aria-label="Previous Slide" data-action="prev">
@@ -269,7 +291,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
         </div>
       </div>
     </section>
-  `}var s=[{id:`feat-villas`,category:`villas`,badge:`★ Featured`,badgeClass:`badge-gold`,name:`VR Green Villas`,location:`Kompally, Hyderabad`,type:`Villas`,typeIcon:`🏠`,spec2:`Gated Community`,spec2Icon:`👥`,spec3:`Green Living`,spec3Icon:`🍃`,price:`₹1.25 Cr*`,image:`/images/ref/feat-villa-clean.jpg`,link:`#/villas`},{id:`feat-plots`,category:`openplots`,badge:`🔥 High Demand`,badgeClass:`badge-orange`,name:`VR Prime Meadows`,location:`Shadnagar, Hyderabad`,type:`Open Plots`,typeIcon:`🗺️`,spec2:`HMDA Approved`,spec2Icon:`🏛️`,spec3:`High Growth`,spec3Icon:`📊`,price:`₹29.9 Lakhs*`,image:`/images/ref/feat-plots-clean.jpg`,link:`#/amodha`},{id:`feat-apts`,category:`apartments`,badge:`🚀 New Launch`,badgeClass:`badge-teal`,name:`VR Heights`,location:`Nallagandla, Hyderabad`,type:`Apartments`,typeIcon:`🏢`,spec2:`2 & 3 BHK`,spec2Icon:`🏠`,spec3:`Modern Amenities`,spec3Icon:`🏊`,price:`₹65 Lakhs*`,image:`/images/ref/feat-apts-clean.jpg`,link:`#/apartments`},{id:`feat-farms`,category:`farmlands`,badge:`🌱 Invest Wise`,badgeClass:`badge-green`,name:`VR Agro Lands`,location:`Shankarpally, Hyderabad`,type:`Farm Lands`,typeIcon:`🌾`,spec2:`Managed Farmlands`,spec2Icon:`🌲`,spec3:`Long-Term Value`,spec3Icon:`📈`,price:`₹18 Lakhs*`,image:`/images/ref/feat-farm-clean.jpg`,link:`#/farmlands`}];function c(){return`
+  `}var s=[{id:`feat-villas`,category:`villas`,badge:`★ Featured`,badgeClass:`badge-gold`,name:`VR Green Villas`,location:`Kompally, Hyderabad`,type:`Villas`,typeIcon:`🏠`,spec2:`Gated Community`,spec2Icon:`👥`,spec3:`Green Living`,spec3Icon:`🍃`,price:`₹1.25 Cr*`,image:`/images/ref/feat-villa-clean.jpg`,link:`#/vr-green-villas`},{id:`feat-plots`,category:`openplots`,badge:`🔥 High Demand`,badgeClass:`badge-orange`,name:`VR Prime Meadows`,location:`Shadnagar, Hyderabad`,type:`Open Plots`,typeIcon:`🗺️`,spec2:`HMDA Approved`,spec2Icon:`🏛️`,spec3:`High Growth`,spec3Icon:`📊`,price:`₹29.9 Lakhs*`,image:`/images/ref/feat-plots-clean.jpg`,link:`#/vr-prime-meadows`},{id:`feat-apts`,category:`apartments`,badge:`🚀 New Launch`,badgeClass:`badge-teal`,name:`VR Heights`,location:`Nallagandla, Hyderabad`,type:`Apartments`,typeIcon:`🏢`,spec2:`2 & 3 BHK`,spec2Icon:`🏠`,spec3:`Modern Amenities`,spec3Icon:`🏊`,price:`₹65 Lakhs*`,image:`/images/ref/feat-apts-clean.jpg`,link:`#/vr-heights`},{id:`feat-farms`,category:`farmlands`,badge:`🌱 Invest Wise`,badgeClass:`badge-green`,name:`VR Agro Lands`,location:`Shankarpally, Hyderabad`,type:`Farm Lands`,typeIcon:`🌾`,spec2:`Managed Farmlands`,spec2Icon:`🌲`,spec3:`Long-Term Value`,spec3Icon:`📈`,price:`₹18 Lakhs*`,image:`/images/ref/feat-farm-clean.jpg`,link:`#/vr-agro-lands`}];function c(){return`
     <section class="ref-projects-section" id="featured-projects">
       <div class="ref-container">
         <!-- Section Header -->
@@ -1168,7 +1190,852 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
 
       ${p()}
     </div>
-  `,init:()=>{t(),m();let e=document.getElementById(`property-detail-enquiry-form`);e&&e.addEventListener(`submit`,t=>{t.preventDefault();let n=document.getElementById(`enquiry-name`).value;e.reset(),v(`Thank you, ${n}! Your enquiry for ${r.title} has been received. Our team will contact you shortly.`)});let n=document.getElementById(`btn-scroll-enquiry`),i=document.getElementById(`tab-enquire-btn`),a=document.getElementById(`enquiry-form-card`),o=()=>{if(a){a.scrollIntoView({behavior:`smooth`,block:`center`});let e=document.getElementById(`enquiry-name`);e&&e.focus()}};n&&n.addEventListener(`click`,o),i&&i.addEventListener(`click`,o)}}}function S(n,r,i,a=`#/`){return{html:`
+  `,init:()=>{t(),m();let e=document.getElementById(`property-detail-enquiry-form`);e&&e.addEventListener(`submit`,t=>{t.preventDefault();let n=document.getElementById(`enquiry-name`).value;e.reset(),v(`Thank you, ${n}! Your enquiry for ${r.title} has been received. Our team will contact you shortly.`)});let n=document.getElementById(`btn-scroll-enquiry`),i=document.getElementById(`tab-enquire-btn`),a=document.getElementById(`enquiry-form-card`),o=()=>{if(a){a.scrollIntoView({behavior:`smooth`,block:`center`});let e=document.getElementById(`enquiry-name`);e&&e.focus()}};n&&n.addEventListener(`click`,o),i&&i.addEventListener(`click`,o)}}}var S={"vr-prime-meadows":{id:`vr-prime-meadows`,name:`VR Prime Meadows`,category:`Open Plots`,categoryLink:`#/open-plots`,categorySlug:`open-plots`,tagline:`Premium open plots in Shadnagar, Hyderabad`,subtitle:`A perfect blend of nature, connectivity and modern living.`,priceBadge:`₹29.9 Lakhs onwards*`,location:`Shadnagar, Hyderabad`,badges:[{text:`HMDA Approved`,icon:`check`},{text:`RERA Registered`,icon:`check`},{text:`Gated Community`,icon:`check`}],scriptCallout:`Invest Today Live Better Tomorrow`,stats:[{label:`Acres`,value:`50`,icon:`land`},{label:`Plots`,value:`350`,icon:`grid`},{label:`Parks & Greenery`,value:`Parks & Greenery`,isText:!0,icon:`tree`},{label:`Clubhouse`,value:`Clubhouse`,isText:!0,icon:`clubhouse`},{label:`Wide Roads`,value:`Wide Roads`,isText:!0,icon:`road`},{label:`Children's Play Area`,value:`Children's Play Area`,isText:!0,icon:`play`}],tabs:[{id:`master-plan`,label:`Master Plan`,active:!0},{id:`project-overview`,label:`Project Overview`},{id:`amenities`,label:`Amenities`},{id:`location-connectivity`,label:`Location & Connectivity`},{id:`gallery`,label:`Gallery`},{id:`brochure`,label:`Brochure`}],hasMasterPlan:!0,plots:[{id:`P01`,num:`P01`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Near North Arch`,x:236,y:246,w:23,h:32},{id:`P02`,num:`P02`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`sold`,approval:`HMDA Approved`,location:`North Avenue`,x:261,y:246,w:23,h:32},{id:`P03`,num:`P03`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`North Avenue`,x:286,y:246,w:23,h:32},{id:`P04`,num:`P04`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`North Avenue`,x:311,y:246,w:23,h:32},{id:`P05`,num:`P05`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`North Avenue`,x:336,y:246,w:23,h:32},{id:`P06`,num:`P06`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`North Avenue`,x:361,y:246,w:23,h:32},{id:`P07`,num:`P07`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`North Avenue`,x:386,y:246,w:23,h:32},{id:`P08`,num:`P08`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`East Boundary`,x:411,y:246,w:23,h:32},{id:`P09`,num:`P09`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Near Park`,x:236,y:280,w:23,h:30},{id:`P10`,num:`P10`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Near Park`,x:261,y:280,w:23,h:30},{id:`P11`,num:`P11`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Sector`,x:286,y:280,w:23,h:30},{id:`P12`,num:`P12`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Sector`,x:311,y:280,w:23,h:30},{id:`P13`,num:`P13`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Sector`,x:336,y:280,w:23,h:30},{id:`P14`,num:`P14`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Sector`,x:361,y:280,w:23,h:30},{id:`P15`,num:`P15`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Sector`,x:386,y:280,w:23,h:30},{id:`P16`,num:`P16`,size:180,dim:`30 × 54 ft`,price:`₹28,80,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`East Boundary`,x:411,y:280,w:23,h:30},{id:`P17`,num:`P17`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Clubhouse View`,x:236,y:320,w:23,h:32},{id:`P18`,num:`P18`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Near Park`,x:261,y:320,w:23,h:32,isDefaultSelected:!0},{id:`P19`,num:`P19`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`reserved`,approval:`HMDA Approved`,location:`Central Boulevard`,x:286,y:320,w:23,h:32},{id:`P20`,num:`P20`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`reserved`,approval:`HMDA Approved`,location:`Central Boulevard`,x:311,y:320,w:23,h:32},{id:`P21`,num:`P21`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Boulevard`,x:336,y:320,w:23,h:32},{id:`P22`,num:`P22`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Boulevard`,x:361,y:320,w:23,h:32},{id:`P23`,num:`P23`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Central Boulevard`,x:386,y:320,w:23,h:32},{id:`P24`,num:`P24`,size:200,dim:`30 × 60 ft`,price:`₹32,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`sold`,approval:`HMDA Approved`,location:`East Boulevard`,x:411,y:320,w:23,h:32},{id:`P25`,num:`P25`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Near Clubhouse`,x:236,y:354,w:23,h:30},{id:`P26`,num:`P26`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Near Clubhouse`,x:261,y:354,w:23,h:30},{id:`P27`,num:`P27`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Park View`,x:286,y:354,w:23,h:30},{id:`P28`,num:`P28`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`North`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`Park View`,x:311,y:354,w:23,h:30},{id:`P29`,num:`P29`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`South Sector`,x:336,y:354,w:23,h:30},{id:`P30`,num:`P30`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`South Sector`,x:361,y:354,w:23,h:30},{id:`P31`,num:`P31`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`sold`,approval:`HMDA Approved`,location:`South Sector`,x:386,y:354,w:23,h:30},{id:`P32`,num:`P32`,size:220,dim:`33 × 60 ft`,price:`₹35,20,000`,rate:`₹16,000 / Sq.Yd`,facing:`South`,road:`30 ft`,status:`available`,approval:`HMDA Approved`,location:`East Boundary`,x:411,y:354,w:23,h:30},{id:`P33`,num:`P33`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Near Entrance`,x:236,y:396,w:23,h:32},{id:`P34`,num:`P34`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`Near Entrance`,x:261,y:396,w:23,h:32},{id:`P35`,num:`P35`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`South Avenue`,x:286,y:396,w:23,h:32},{id:`P36`,num:`P36`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`East`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`South Avenue`,x:311,y:396,w:23,h:32},{id:`P37`,num:`P37`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`South Avenue`,x:336,y:396,w:23,h:32},{id:`P38`,num:`P38`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`South Avenue`,x:361,y:396,w:23,h:32},{id:`P39`,num:`P39`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`South Avenue`,x:386,y:396,w:23,h:32},{id:`P40`,num:`P40`,size:250,dim:`35 × 64 ft`,price:`₹40,00,000`,rate:`₹16,000 / Sq.Yd`,facing:`West`,road:`40 ft`,status:`available`,approval:`HMDA Approved`,location:`South Avenue`,x:411,y:396,w:23,h:32}],highlights:[{title:`HMDA Approved Layout`,icon:`shield-check`},{title:`Gated Community`,icon:`gate`},{title:`Grand Entrance Arch`,icon:`arch`},{title:`Wide 40 & 60 ft Blacktop Roads`,icon:`road-wide`},{title:`Parks & Green Spaces`,icon:`tree-park`},{title:`Clubhouse`,icon:`club-house`},{title:`Children's Play Area`,icon:`play-area`},{title:`Gym & Fitness Area`,icon:`dumbbell`},{title:`Underground Utilities`,icon:`pipe`},{title:`Avenue Plantation`,icon:`leaf-row`}],advantages:[{title:`Prime Location with Excellent Connectivity`,icon:`pin-star`},{title:`Clean & Green Environment`,icon:`leaf`},{title:`Well Planned Layout`,icon:`compass-grid`},{title:`Ready for Construction`,icon:`doc-check`},{title:`High Appreciation Potential`,icon:`chart-up`},{title:`Safe & Secure Community`,icon:`shield-lock`},{title:`Ideal for Investment or Dream Home`,icon:`home-heart`}],connectivity:{distances:[{destination:`Rajiv Gandhi International Airport`,distance:`25 km`,time:`30 mins`,icon:`plane`},{destination:`Shadnagar Bus Stand`,distance:`8 km`,time:`15 mins`,icon:`bus`},{destination:`Shadnagar Town`,distance:`8 km`,time:`15 mins`,icon:`building`},{destination:`Outer Ring Road (ORR)`,distance:`12 km`,time:`20 mins`,icon:`road`},{destination:`NH-44`,distance:`8 km`,time:`15 mins`,icon:`road`},{destination:`Kothur`,distance:`10 km`,time:`20 mins`,icon:`building`},{destination:`TSPA Junction`,distance:`18 km`,time:`25 mins`,icon:`road`},{destination:`Hospitals`,distance:`10 – 20 km`,time:`15 mins`,icon:`hospital`},{destination:`Schools & Colleges`,distance:`5 – 15 km`,time:`10 mins`,icon:`school`},{destination:`Shopping & Malls`,distance:`10 – 20 km`,time:`20 mins`,icon:`shopping`}]},gallery:{featured:{title:`Entrance Arch & Grand Gate`,img:`/images/plot-amodha-clean.jpg`},thumbnails:[{title:`Clubhouse`,img:`/images/ref/feat-plots-clean.jpg`},{title:`Park & Greenery`,img:`/images/plot-amodha-full.jpg`},{title:`Children's Play Area`,img:`/images/plot-fortune-avenue.jpg`},{title:`Internal Roads`,img:`/images/plot-eeshanya-county.jpg`}]},cta:{headline:`Your Future Begins Here`,subtitle:`Invest in VR Prime Meadows and be part of a well-planned, greener and brighter tomorrow.`,btnText:`Book a Site Visit`},footerPoints:[{title:`Premium Plots`,desc:`Well-planned plots in a secure, gated community.`,icon:`award`},{title:`Strategic Location`,desc:`Close to airport, ORR, NH-44 and key locations.`,icon:`target`},{title:`Better Tomorrow`,desc:`A perfect place to build your dream home or invest for the future.`,icon:`sparkle`}]},"vr-green-villas":{id:`vr-green-villas`,name:`VR Green Villas`,category:`Luxury Villas`,categoryLink:`#/villas`,categorySlug:`villas`,tagline:`Ultra-luxury triplex villas in Kompally, Hyderabad`,subtitle:`Crafted for refined elegance, expansive living, and lifetime peace.`,priceBadge:`₹1.25 Cr onwards*`,location:`Kompally, Hyderabad`,badges:[{text:`HMDA Approved`,icon:`check`},{text:`RERA Registered`,icon:`check`},{text:`100% Vastu Compliant`,icon:`check`}],scriptCallout:`Live Extraordinary in Pure Harmony`,stats:[{label:`Acres`,value:`25`,icon:`land`},{label:`Villas`,value:`180`,icon:`grid`},{label:`Private Gardens`,value:`Private Gardens`,isText:!0,icon:`tree`},{label:`Grand Clubhouse`,value:`Grand Clubhouse`,isText:!0,icon:`clubhouse`},{label:`3 & 4 BHK`,value:`3 & 4 BHK`,isText:!0,icon:`road`},{label:`Swimming Pool`,value:`Swimming Pool`,isText:!0,icon:`play`}],tabs:[{id:`project-overview`,label:`Villa Overview`,active:!0},{id:`configurations`,label:`Configurations`},{id:`amenities`,label:`Amenities`},{id:`location-connectivity`,label:`Location & Connectivity`},{id:`gallery`,label:`Gallery`},{id:`brochure`,label:`Brochure`}],hasMasterPlan:!1,configurations:[{type:`3 BHK Triplex Villa`,size:`2,450 Sq.Ft`,facing:`East / West Facing`,plotSize:`167 Sq.Yds`,features:[`3 Master Bedrooms`,`Home Theatre Lounge`,`Private Terrace Garden`,`Covered Double Car Parking`],price:`₹1.25 Cr*`},{type:`4 BHK Luxury Triplex Villa`,size:`3,200 Sq.Ft`,facing:`East Facing`,plotSize:`220 Sq.Yds`,features:[`4 En-Suite Bedrooms`,`Private Lift Provision`,`Grand Double-Height Living`,`Outdoor Deck & Lawn`],price:`₹1.65 Cr*`},{type:`4 BHK Royal Estate Villa`,size:`3,850 Sq.Ft`,facing:`North-East Corner`,plotSize:`300 Sq.Yds`,features:[`Private Plunge Pool`,`Servant Quarters`,`Solar Power Backup`,`Smart Home Automation`],price:`₹2.10 Cr*`}],highlights:[{title:`HMDA Approved & RERA Registered`,icon:`shield-check`},{title:`24x7 Security & CCTV Surveillance`,icon:`gate`},{title:`15,000 Sq.Ft Grand Clubhouse`,icon:`club-house`},{title:`Temperature Controlled Swimming Pool`,icon:`play`},{title:`Fully Equipped Gym & Yoga Pavilion`,icon:`dumbbell`},{title:`Tennis & Badminton Courts`,icon:`award`},{title:`Underground Cabling & Concealed Drainage`,icon:`pipe`},{title:`EV Charging Points for Each Villa`,icon:`sparkle`},{title:`100% Power Backup`,icon:`target`},{title:`Lush Landscaped Greenery`,icon:`tree-park`}],advantages:[{title:`Prime Kompally Corridor with Direct NH-44 Access`,icon:`pin-star`},{title:`10 Mins from Top International Schools`,icon:`school`},{title:`Surrounded by Pristine Natural Green Belts`,icon:`leaf`},{title:`Zero Pollution Living with Resort-Style Comfort`,icon:`compass-grid`},{title:`High Rental Yield & Capital Growth Corridor`,icon:`chart-up`},{title:`Reputed Quality Construction with Premium Brands`,icon:`doc-check`},{title:`Community of High-Net-Worth Like-Minded Families`,icon:`home-heart`}],connectivity:{distances:[{destination:`Outer Ring Road (ORR) Junction`,distance:`6 km`,time:`8 mins`,icon:`road`},{destination:`Kompally Commercial Center`,distance:`3 km`,time:`5 mins`,icon:`shopping`},{destination:`Secunderabad Railway Station`,distance:`16 km`,time:`25 mins`,icon:`building`},{destination:`HITEC City / Financial District`,distance:`28 km`,time:`35 mins via ORR`,icon:`building`},{destination:`DRS International School`,distance:`2.5 km`,time:`5 mins`,icon:`school`},{destination:`Malla Reddy Multi-Speciality Hospital`,distance:`4 km`,time:`7 mins`,icon:`hospital`},{destination:`Medchal Town`,distance:`7 km`,time:`10 mins`,icon:`building`},{destination:`Rajiv Gandhi International Airport (RGIA)`,distance:`48 km`,time:`50 mins via ORR`,icon:`plane`}]},gallery:{featured:{title:`Grand Villa Façade & Entrance`,img:`/images/hero-villas.jpg`},thumbnails:[{title:`Luxury Villa Living Room`,img:`/images/ref/feat-villa-clean.jpg`},{title:`Designer Clubhouse`,img:`/images/cat-villas.jpg`},{title:`Private Terrace & Garden`,img:`/images/ref/cta-villa-pure.jpg`},{title:`Community Boulevard`,img:`/images/featured-anvaya.jpg`}]},cta:{headline:`Experience Villa Living at its Finest`,subtitle:`Schedule an exclusive private tour of model villas at VR Green Villas today.`,btnText:`Book Private Villa Tour`},footerPoints:[{title:`Luxury Triplex Villas`,desc:`Crafted with premium architecture and expansive private gardens.`,icon:`award`},{title:`Kompally Highway Access`,desc:`Just minutes away from ORR, top schools and healthcare hubs.`,icon:`target`},{title:`Gated Haven`,desc:`24/7 security with a modern 15,000 sq.ft clubhouse lifestyle.`,icon:`sparkle`}]},"vr-heights":{id:`vr-heights`,name:`VR Heights`,category:`Premium Apartments`,categoryLink:`#/apartments`,categorySlug:`apartments`,tagline:`Premium 2 & 3 BHK high-rise residences in Nallagandla`,subtitle:`Elevated lifestyle towers overlooking scenic cityscapes and lush greens.`,priceBadge:`₹65 Lakhs onwards*`,location:`Nallagandla, Hyderabad`,badges:[{text:`GHMC Approved`,icon:`check`},{text:`TS RERA Registered`,icon:`check`},{text:`IGBC Green Certified`,icon:`check`}],scriptCallout:`Rise Above the Ordinary Everyday`,stats:[{label:`Acres`,value:`8`,icon:`land`},{label:`Units`,value:`450`,icon:`grid`},{label:`Towers`,value:`4 Towers (G+18)`,isText:!0,icon:`clubhouse`},{label:`Sky Lounge`,value:`Sky Lounge`,isText:!0,icon:`tree`},{label:`Clubhouse`,value:`25,000 Sq.Ft Club`,isText:!0,icon:`road`},{label:`Infinity Pool`,value:`Infinity Pool`,isText:!0,icon:`play`}],tabs:[{id:`project-overview`,label:`Tower Overview`,active:!0},{id:`configurations`,label:`Floor Plans`},{id:`amenities`,label:`Sky Amenities`},{id:`location-connectivity`,label:`Location & Connectivity`},{id:`gallery`,label:`Gallery`},{id:`brochure`,label:`Brochure`}],hasMasterPlan:!1,configurations:[{type:`2 BHK Premium Apartment`,size:`1,250 Sq.Ft`,facing:`East / West Facing`,plotSize:`Unit Type A`,features:[`2 Large Bedrooms + 2 Bathrooms`,`Spacious Balcony with Sky Views`,`Modular Kitchen Layout`,`Covered Reserved Parking`],price:`₹65 Lakhs*`},{type:`3 BHK Comfort Apartment`,size:`1,650 Sq.Ft`,facing:`East Facing Corner`,plotSize:`Unit Type B`,features:[`3 Bedrooms + 3 Bathrooms`,`Separate Dining & Foyer`,`Pooja Room Provision`,`Dual Balconies`],price:`₹85 Lakhs*`},{type:`3 BHK Royal Sky Suite`,size:`1,950 Sq.Ft`,facing:`North-East Corner`,plotSize:`Unit Type C`,features:[`3 En-Suite Bedrooms + Powder Room`,`Walk-in Wardrobe`,`Unobstructed Panoramic Views`,`Double Car Parking`],price:`₹1.05 Cr*`}],highlights:[{title:`GHMC Approved High-Rise G+18 Towers`,icon:`shield-check`},{title:`Rooftop Infinity Swimming Pool`,icon:`play`},{title:`25,000 Sq.Ft World-Class Clubhouse`,icon:`club-house`},{title:`High-Speed Automated Elevators`,icon:`gate`},{title:`AC Gymnasium & Aerobics Studio`,icon:`dumbbell`},{title:`Multi-Tier 24/7 Security & Intercom`,icon:`shield-lock`},{title:`Covered Multi-Level Basements`,icon:`road-wide`},{title:`Banquet Hall & Guest Suites`,icon:`arch`},{title:`Landscaped Podium Garden & Jogging Track`,icon:`tree-park`},{title:`100% Generator Backup for Entire Complex`,icon:`target`}],advantages:[{title:`Strategic Nallagandla Corridor close to Financial District`,icon:`pin-star`},{title:`10 Mins from HITEC City and Gachibowli IT Hubs`,icon:`building`},{title:`Top International Schools within 3 km Radius`,icon:`school`},{title:`Walkable Distance to Supermarkets & Clinics`,icon:`shopping`},{title:`Exceptional Rental Appreciation in IT Corridor`,icon:`chart-up`},{title:`Vastu Compliant Layouts with Superior Natural Light`,icon:`compass-grid`},{title:`IGBC Green Building Certified for Low Maintenance`,icon:`leaf`}],connectivity:{distances:[{destination:`Financial District / Wipro Circle`,distance:`7 km`,time:`12 mins`,icon:`building`},{destination:`HITEC City Cyber Towers`,distance:`11 km`,time:`18 mins`,icon:`building`},{destination:`Lingampally MMTS Station`,distance:`3 km`,time:`6 mins`,icon:`bus`},{destination:`Outer Ring Road (ORR) Gachibowli`,distance:`6 km`,time:`10 mins`,icon:`road`},{destination:`Citizen Multi-Speciality Hospital`,distance:`1.5 km`,time:`3 mins`,icon:`hospital`},{destination:`Chirec International School`,distance:`5 km`,time:`8 mins`,icon:`school`},{destination:`Inorbit Mall Madhapur`,distance:`13 km`,time:`20 mins`,icon:`shopping`},{destination:`Rajiv Gandhi International Airport (RGIA)`,distance:`34 km`,time:`35 mins via ORR`,icon:`plane`}]},gallery:{featured:{title:`VR Heights Iconic Towers`,img:`/images/hero-apartments.jpg`},thumbnails:[{title:`Designer High-Rise Living Room`,img:`/images/ref/feat-apts-clean.jpg`},{title:`Rooftop Lounge & Pool`,img:`/images/cat-apartments.jpg`},{title:`Tower Podium Greenery`,img:`/images/ref/exp-apts-clean.jpg`},{title:`Master Bedroom Suite`,img:`/images/ref/feat-apts-pure.jpg`}]},cta:{headline:`Elevate Your Life at VR Heights`,subtitle:`Schedule a visit to view model apartments and experience the skyline views.`,btnText:`Book Site Visit Now`},footerPoints:[{title:`Sky-High Living`,desc:`Luxurious 2 & 3 BHK residences with grand panoramic city views.`,icon:`award`},{title:`Minutes from IT Corridor`,desc:`Superb connectivity to Gachibowli, Financial District & MMTS.`,icon:`target`},{title:`World-Class Amenities`,desc:`Rooftop infinity pool, clubhouse, gym, and podium parks.`,icon:`sparkle`}]},"vr-agro-lands":{id:`vr-agro-lands`,name:`VR Agro Lands`,category:`Farm Lands`,categoryLink:`#/farmlands`,categorySlug:`farmlands`,tagline:`Managed organic farm lands in Shankarpally, Hyderabad`,subtitle:`Where peaceful weekend retreat meets high-yielding agricultural appreciation.`,priceBadge:`₹18 Lakhs onwards*`,location:`Shankarpally, Hyderabad`,badges:[{text:`Clear Title Deeds`,icon:`check`},{text:`Drip Irrigation Setup`,icon:`check`},{text:`Managed Plantation`,icon:`check`}],scriptCallout:`Cultivate Prosperity, Own Pure Nature`,stats:[{label:`Acres`,value:`100`,icon:`land`},{label:`Farmlands`,value:`80`,icon:`grid`},{label:`Fruit Trees`,value:`Malgoa & Sandalwood`,isText:!0,icon:`tree`},{label:`Weekend Club`,value:`Resort & Cottages`,isText:!0,icon:`clubhouse`},{label:`Farm Sizes`,value:`0.5 to 2 Acres`,isText:!0,icon:`road`},{label:`Water Security`,value:`24/7 Drip & Bore`,isText:!0,icon:`play`}],tabs:[{id:`project-overview`,label:`Farm Overview`,active:!0},{id:`configurations`,label:`Land Units`},{id:`amenities`,label:`Retreat Amenities`},{id:`location-connectivity`,label:`Location & Connectivity`},{id:`gallery`,label:`Gallery`},{id:`brochure`,label:`Brochure`}],hasMasterPlan:!1,configurations:[{type:`0.5 Acre Farm Estate (20 Guntas)`,size:`2,420 Sq.Yds`,facing:`East / North Facing`,plotSize:`20 Guntas`,features:[`30 High-Yield Fruit Bearing Trees`,`Automated Drip Irrigation Line`,`Pre-fenced with Iron Gate`,`Wooden Gazebo Setup Option`],price:`₹18 Lakhs*`},{type:`1.0 Acre Signature Agro Plot`,size:`4,840 Sq.Yds`,facing:`Corner Agro Land`,plotSize:`40 Guntas`,features:[`60 Mango & Sandalwood Trees`,`Dedicated Farm Maintenance Crew`,`Water & Power Connection`,`Access to Weekend Resort Club`],price:`₹34 Lakhs*`},{type:`2.0 Acre Imperial Agro Estate`,size:`9,680 Sq.Yds`,facing:`Prime Boulevard Facing`,plotSize:`80 Guntas`,features:[`Full Organic Farm Management`,`Private Farmhouse Construction Permitted`,`Cattle & Dairy Farming Facility`,`Permanent Road Access`],price:`₹65 Lakhs*`}],highlights:[{title:`100% Clear Title Freehold Agro Lands`,icon:`shield-check`},{title:`Professional 5-Year Farm Management`,icon:`leaf`},{title:`Scientific Drip Irrigation & Borewells`,icon:`pipe`},{title:`Resort Style Weekend Clubhouse & Cottages`,icon:`club-house`},{title:`High Yield Sandalwood & Mango Trees`,icon:`tree-park`},{title:`Solar Powered Perimeter Fencing`,icon:`gate`},{title:`30 & 40 ft Wide Internal Gravel Roads`,icon:`road-wide`},{title:`Organic Vegetable Cultivation Support`,icon:`leaf-row`},{title:`Children's Petting Zoo & Play Zone`,icon:`play-area`},{title:`24/7 On-Site Security & Caretaker Staff`,icon:`shield-lock`}],advantages:[{title:`High Growth Shankarpally – Mokila Highway Corridor`,icon:`pin-star`},{title:`Tax-Free Agricultural Income from Crop Yields`,icon:`chart-up`},{title:`Perfect Weekend Getaway within 45 Mins of City`,icon:`home-heart`},{title:`Rapid Land Value Appreciation Potential`,icon:`compass-grid`},{title:`Pollution-Free Eco-Friendly Environment`,icon:`leaf`},{title:`Zero Maintenance Hassle with Expert Agro Team`,icon:`doc-check`},{title:`Safe Long-Term Inter-Generational Asset`,icon:`target`}],connectivity:{distances:[{destination:`Shankarpally Railway Station`,distance:`6 km`,time:`8 mins`,icon:`bus`},{destination:`Mokila Residential Hub`,distance:`14 km`,time:`15 mins`,icon:`building`},{destination:`Outer Ring Road (ORR) Muthangi`,distance:`22 km`,time:`25 mins`,icon:`road`},{destination:`Financial District / Kokapet`,distance:`32 km`,time:`35 mins via 4-Lane Highway`,icon:`building`},{destination:`IIT Hyderabad (Kandi)`,distance:`16 km`,time:`20 mins`,icon:`school`},{destination:`ICFAI University Campus`,distance:`12 km`,time:`15 mins`,icon:`school`},{destination:`Proposed Regional Ring Road (RRR)`,distance:`8 km`,time:`10 mins`,icon:`road`},{destination:`Rajiv Gandhi International Airport (RGIA)`,distance:`46 km`,time:`50 mins via ORR`,icon:`plane`}]},gallery:{featured:{title:`VR Agro Lands Lush Estate`,img:`/images/hero-farmlands.jpg`},thumbnails:[{title:`Organic Mango Plantation`,img:`/images/ref/feat-farm-clean.jpg`},{title:`Weekend Cottage Resort`,img:`/images/cat-farmlands.jpg`},{title:`Drip Irrigated Groves`,img:`/images/featured-sanjeevani.jpg`},{title:`Farm Avenue & Boundary`,img:`/images/ref/exp-farm-clean.jpg`}]},cta:{headline:`Claim Your Piece of Pure Nature`,subtitle:`Book a guided weekend site visit with organic farm lunch for your family.`,btnText:`Book Weekend Farm Visit`},footerPoints:[{title:`Managed Farmlands`,desc:`Expert farm maintenance with regular returns from fruit & timber crops.`,icon:`award`},{title:`Shankarpally Growth Axis`,desc:`Fast connecting to Financial District, Mokila and Proposed RRR.`,icon:`target`},{title:`Eco-Retreat Living`,desc:`Resort amenities, cottages and organic farm recreation for families.`,icon:`sparkle`}]}};function C(e){let t=e.plots||[],n=t.find(e=>e.isDefaultSelected)||t[0];return`
+    <section class="master-plan-section" id="master-plan-section">
+      <div class="mp-container">
+        
+        <!-- Desktop 3-Column Grid -->
+        <div class="mp-layout-grid">
+          
+          <!-- Column 1: Find Your Plot Filters -->
+          <div class="mp-filter-card">
+            <div class="filter-card-header">
+              <h3 class="filter-title">Find Your Plot</h3>
+              <button type="button" class="filter-reset-btn" id="mp-filter-reset">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/>
+                  <path d="M3 3v5h5"/>
+                </svg>
+                <span>Reset</span>
+              </button>
+            </div>
+
+            <form id="mp-filter-form" class="filter-form">
+              <div class="filter-group">
+                <label class="filter-label">Plot Size (Sq.Yds)</label>
+                <div class="select-wrap">
+                  <select id="filter-size" class="filter-select">
+                    <option value="all">Any Size</option>
+                    <option value="180">180 Sq.Yds</option>
+                    <option value="200">200 Sq.Yds</option>
+                    <option value="220">220 Sq.Yds</option>
+                    <option value="250">250 Sq.Yds</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="filter-group">
+                <label class="filter-label">Budget</label>
+                <div class="select-wrap">
+                  <select id="filter-budget" class="filter-select">
+                    <option value="all">Any Budget</option>
+                    <option value="30">Under ₹30 Lakhs</option>
+                    <option value="35">₹30L - ₹35 Lakhs</option>
+                    <option value="40">Above ₹35 Lakhs</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="filter-group">
+                <label class="filter-label">Facing</label>
+                <div class="select-wrap">
+                  <select id="filter-facing" class="filter-select">
+                    <option value="all">Any Facing</option>
+                    <option value="East">East</option>
+                    <option value="West">West</option>
+                    <option value="North">North</option>
+                    <option value="South">South</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="filter-group">
+                <label class="filter-label">Road Width</label>
+                <div class="select-wrap">
+                  <select id="filter-road" class="filter-select">
+                    <option value="all">Any Width</option>
+                    <option value="30 ft">30 ft Road</option>
+                    <option value="40 ft">40 ft Road</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="filter-group">
+                <label class="filter-label">Availability</label>
+                <div class="checkbox-options">
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="avail-available" value="available" checked>
+                    <span class="chk-box"></span>
+                    <span class="chk-lbl">Available</span>
+                  </label>
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="avail-reserved" value="reserved">
+                    <span class="chk-box"></span>
+                    <span class="chk-lbl">Reserved</span>
+                  </label>
+                  <label class="custom-checkbox">
+                    <input type="checkbox" id="avail-sold" value="sold">
+                    <span class="chk-box"></span>
+                    <span class="chk-lbl">Sold</span>
+                  </label>
+                </div>
+              </div>
+
+              <button type="button" id="mp-apply-btn" class="mp-apply-btn">Apply Filters</button>
+            </form>
+          </div>
+
+          <!-- Column 2: Interactive Master Plan Center -->
+          <div class="mp-viewport-card" id="mp-viewport-container">
+            <!-- Legend Bar -->
+            <div class="mp-legend-bar">
+              <div class="legend-item"><span class="legend-dot available"></span> Available</div>
+              <div class="legend-item"><span class="legend-dot reserved"></span> Reserved</div>
+              <div class="legend-item"><span class="legend-dot sold"></span> Sold</div>
+            </div>
+
+            <!-- Map Stage -->
+            <div class="mp-stage-wrap" id="mp-stage-wrap">
+              <!-- Compass Rose -->
+              <div class="mp-compass" title="Layout Orientation">
+                <div class="compass-n">N</div>
+                <div class="compass-arrow">✦</div>
+                <div class="compass-ring"></div>
+              </div>
+
+              <!-- Floating Controls -->
+              <div class="mp-zoom-controls">
+                <button type="button" class="zoom-btn" id="mp-zoom-in" title="Zoom In">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg>
+                </button>
+                <button type="button" class="zoom-btn" id="mp-zoom-out" title="Zoom Out">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/></svg>
+                </button>
+                <button type="button" class="zoom-btn" id="mp-zoom-reset" title="Reset View">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/></svg>
+                </button>
+                <button type="button" class="zoom-btn" id="mp-toggle-fullscreen" title="Full Screen Master Plan">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"/>
+                  </svg>
+                </button>
+              </div>
+
+              <!-- SVG Interactive Layout Canvas -->
+              <div class="mp-canvas-scroll" id="mp-canvas-scroll">
+                <div class="mp-canvas-transform" id="mp-canvas-transform">
+                  ${w(t,n.id)}
+                </div>
+              </div>
+            </div>
+
+            <!-- Mobile Quick Actions Strip -->
+            <div class="mp-mobile-quick-actions">
+              <button class="mp-mob-btn primary" onclick="window.openSiteVisitModal('${e.name}')">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Book a Site Visit</span>
+              </button>
+              <a href="https://maps.google.com" target="_blank" rel="noopener" class="mp-mob-btn secondary">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>View on Google Maps</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 3: Selected Plot Details Panel -->
+          <div class="mp-details-card" id="mp-details-card">
+            ${T(n,e.name)}
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Mobile Full Screen Modal Overlay -->
+    <div class="mp-fullscreen-modal" id="mp-fullscreen-modal" style="display: none;">
+      <div class="fs-header">
+        <button type="button" class="fs-exit-btn" id="fs-exit-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          <span>Exit Full Screen</span>
+        </button>
+        <span class="fs-title">${e.name} &bull; Master Plan</span>
+        <div class="fs-legend">
+          <span class="legend-dot available"></span> Available
+          <span class="legend-dot reserved"></span> Reserved
+          <span class="legend-dot sold"></span> Sold
+        </div>
+      </div>
+
+      <div class="fs-body">
+        <div class="fs-stage" id="fs-stage">
+          <div class="mp-zoom-controls fs-controls">
+            <button type="button" class="zoom-btn" id="fs-zoom-in" title="Zoom In"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12h14"/></svg></button>
+            <button type="button" class="zoom-btn" id="fs-zoom-out" title="Zoom Out"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14"/></svg></button>
+            <button type="button" class="zoom-btn" id="fs-zoom-reset" title="Reset View"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/></svg></button>
+          </div>
+          
+          <div class="fs-canvas-scroll" id="fs-canvas-scroll">
+            <div class="fs-canvas-transform" id="fs-canvas-transform">
+              ${w(t,n.id,`fs`)}
+            </div>
+          </div>
+        </div>
+
+        <!-- Floating Selected Plot Card in Fullscreen -->
+        <div class="fs-plot-panel" id="fs-plot-panel">
+          ${T(n,e.name,!0)}
+        </div>
+      </div>
+
+      <div class="fs-footer">
+        <span>Pan, zoom and explore the master plan freely</span>
+      </div>
+    </div>
+  `}function w(e,t,n=`mp`){return`
+    <svg class="master-plan-svg" viewBox="0 0 700 560" xmlns="http://www.w3.org/2000/svg" id="${n}-svg">
+      <defs>
+        <!-- Gradients & Patterns -->
+        <linearGradient id="${n}-grass" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#2D5A27" />
+          <stop offset="50%" stop-color="#1E3F1A" />
+          <stop offset="100%" stop-color="#142A12" />
+        </linearGradient>
+
+        <linearGradient id="${n}-road-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stop-color="#4B5563" />
+          <stop offset="50%" stop-color="#374151" />
+          <stop offset="100%" stop-color="#4B5563" />
+        </linearGradient>
+
+        <linearGradient id="${n}-plot-avail" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#C6E6B8" />
+          <stop offset="100%" stop-color="#A5D698" />
+        </linearGradient>
+
+        <linearGradient id="${n}-plot-res" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#FEE685" />
+          <stop offset="100%" stop-color="#FCD34D" />
+        </linearGradient>
+
+        <linearGradient id="${n}-plot-sold" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stop-color="#FCA5A5" />
+          <stop offset="100%" stop-color="#F87171" />
+        </linearGradient>
+
+        <filter id="${n}-glow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#0284c7" flood-opacity="0.9"/>
+        </filter>
+
+        <pattern id="${n}-tree-pattern" width="20" height="20" patternUnits="userSpaceOnUse">
+          <circle cx="10" cy="10" r="8" fill="#1C4B18" opacity="0.8"/>
+          <circle cx="9" cy="9" r="6" fill="#2E7D32" opacity="0.9"/>
+          <circle cx="8" cy="8" r="3" fill="#66BB6A" opacity="0.8"/>
+        </pattern>
+      </defs>
+
+      <!-- Base Ground Background (Landscape with Trees & Boundary) -->
+      <rect x="0" y="0" width="700" height="560" fill="url(#${n}-grass)" rx="12"/>
+
+      <!-- Outer Boundary & Trees Perimeter -->
+      <rect x="14" y="14" width="672" height="532" fill="none" stroke="#688E26" stroke-width="6" rx="8" stroke-dasharray="12 4"/>
+      <rect x="20" y="20" width="660" height="30" fill="url(#${n}-tree-pattern)"/>
+      <rect x="20" y="510" width="660" height="30" fill="url(#${n}-tree-pattern)"/>
+      <rect x="20" y="50" width="30" height="460" fill="url(#${n}-tree-pattern)"/>
+      <rect x="650" y="50" width="30" height="460" fill="url(#${n}-tree-pattern)"/>
+
+      <!-- Inner Layout Grounds -->
+      <rect x="60" y="60" width="580" height="440" fill="#244D20" rx="6"/>
+
+      <!-- Left Amenities Zone (Park, Clubhouse, Kids Play Area) -->
+      <!-- Park -->
+      <g class="amenity-zone" id="zone-park">
+        <rect x="75" y="80" width="135" height="155" rx="8" fill="#1E5C1B" stroke="#4CAF50" stroke-width="2"/>
+        <!-- Trees inside park -->
+        <circle cx="105" cy="115" r="14" fill="#388E3C"/>
+        <circle cx="103" cy="113" r="10" fill="#81C784"/>
+        <circle cx="160" cy="110" r="16" fill="#2E7D32"/>
+        <circle cx="158" cy="108" r="12" fill="#66BB6A"/>
+        <circle cx="120" cy="180" r="18" fill="#388E3C"/>
+        <circle cx="118" cy="177" r="14" fill="#81C784"/>
+        <circle cx="170" cy="175" r="14" fill="#2E7D32"/>
+        <!-- Walking track -->
+        <path d="M 95 100 Q 140 85 180 100 T 180 200 T 95 200 Z" fill="none" stroke="#D7CCC8" stroke-width="4" stroke-dasharray="6 3"/>
+        <rect x="110" y="140" width="65" height="24" rx="4" fill="rgba(15, 38, 28, 0.85)"/>
+        <text x="142" y="156" fill="#FFFFFF" font-size="11" font-weight="700" text-anchor="middle" letter-spacing="1">PARK</text>
+      </g>
+
+      <!-- Clubhouse Zone -->
+      <g class="amenity-zone" id="zone-clubhouse">
+        <rect x="75" y="250" width="135" height="140" rx="8" fill="#1A3828" stroke="#D4AF37" stroke-width="2"/>
+        <rect x="90" y="265" width="105" height="85" rx="6" fill="#254E35" stroke="#E6C65A" stroke-width="1.5"/>
+        <!-- Pool inside clubhouse -->
+        <rect x="100" y="275" width="45" height="30" rx="4" fill="#38BDF8" stroke="#0284C7" stroke-width="1.5"/>
+        <text x="122" y="294" fill="#0369A1" font-size="8" font-weight="700" text-anchor="middle">POOL</text>
+        <rect x="100" y="360" width="85" height="20" rx="4" fill="rgba(15, 38, 28, 0.9)"/>
+        <text x="142" y="374" fill="#D4AF37" font-size="10" font-weight="700" text-anchor="middle" letter-spacing="1">CLUBHOUSE</text>
+      </g>
+
+      <!-- Kids Play Area Zone -->
+      <g class="amenity-zone" id="zone-play-area">
+        <rect x="75" y="405" width="135" height="80" rx="8" fill="#1E472A" stroke="#F59E0B" stroke-width="2"/>
+        <circle cx="110" cy="445" r="14" fill="#FBBF24" opacity="0.4"/>
+        <circle cx="165" cy="445" r="14" fill="#F472B6" opacity="0.4"/>
+        <rect x="90" y="450" width="105" height="20" rx="4" fill="rgba(15, 38, 28, 0.85)"/>
+        <text x="142" y="464" fill="#FFFFFF" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="0.5">KIDS PLAY AREA</text>
+      </g>
+
+      <!-- ROADS NETWORK -->
+      <!-- Vertical Divider Road Left (30 FT WIDE ROAD) -->
+      <rect x="220" y="70" width="26" height="420" fill="#374151"/>
+      <line x1="233" y1="70" x2="233" y2="490" stroke="#F3F4F6" stroke-width="1.5" stroke-dasharray="8 6"/>
+      <text x="233" y="280" fill="#E5E7EB" font-size="8" font-weight="700" text-anchor="middle" transform="rotate(-90 233 280)" letter-spacing="2">30 FT WIDE ROAD</text>
+
+      <!-- Vertical Divider Road Right (30 FT WIDE ROAD) -->
+      <rect x="444" y="70" width="26" height="420" fill="#374151"/>
+      <line x1="457" y1="70" x2="457" y2="490" stroke="#F3F4F6" stroke-width="1.5" stroke-dasharray="8 6"/>
+      <text x="457" y="280" fill="#E5E7EB" font-size="8" font-weight="700" text-anchor="middle" transform="rotate(90 457 280)" letter-spacing="2">30 FT WIDE ROAD</text>
+
+      <!-- North Main Road (40 FT WIDE ROAD) -->
+      <rect x="246" y="215" width="198" height="24" fill="#374151"/>
+      <line x1="246" y1="227" x2="444" y2="227" stroke="#F3F4F6" stroke-width="1.5" stroke-dasharray="8 6"/>
+      <text x="345" y="231" fill="#F3F4F6" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="2">40 FT WIDE ROAD</text>
+
+      <!-- Middle Cross Road (30 FT WIDE ROAD) -->
+      <rect x="246" y="310" width="198" height="20" fill="#374151"/>
+      <line x1="246" y1="320" x2="444" y2="320" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="6 4"/>
+      <text x="345" y="324" fill="#F3F4F6" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="2">30 FT WIDE ROAD</text>
+
+      <!-- South Cross Road (30 FT WIDE ROAD) -->
+      <rect x="246" y="384" width="198" height="20" fill="#374151"/>
+      <line x1="246" y1="394" x2="444" y2="394" stroke="#F3F4F6" stroke-width="1" stroke-dasharray="6 4"/>
+      <text x="345" y="398" fill="#F3F4F6" font-size="8" font-weight="700" text-anchor="middle" letter-spacing="2">30 FT WIDE ROAD</text>
+
+      <!-- North Top Road (60 FT WIDE HIGHWAY CONNECTOR) -->
+      <rect x="220" y="55" width="250" height="22" fill="#1F2937"/>
+      <text x="345" y="70" fill="#9CA3AF" font-size="8" font-weight="600" text-anchor="middle" letter-spacing="1">NORTH AVENUE &bull; 60 FT ROAD</text>
+
+      <!-- East Boundary Greenery / Landscape Buffer -->
+      <g class="east-sector">
+        <rect x="478" y="75" width="150" height="410" rx="6" fill="#1B4217" stroke="#34D399" stroke-width="1" stroke-dasharray="4 2"/>
+        <circle cx="510" cy="120" r="14" fill="#2E7D32"/>
+        <circle cx="580" cy="150" r="16" fill="#388E3C"/>
+        <circle cx="530" cy="240" r="18" fill="#2E7D32"/>
+        <circle cx="600" cy="310" r="15" fill="#388E3C"/>
+        <circle cx="520" cy="390" r="16" fill="#2E7D32"/>
+        <rect x="495" y="270" width="115" height="24" rx="4" fill="rgba(15, 38, 28, 0.85)"/>
+        <text x="552" y="286" fill="#A7F3D0" font-size="9" font-weight="700" text-anchor="middle" letter-spacing="1">FUTURE PHASE II</text>
+      </g>
+
+      <!-- MAIN ENTRANCE ARCH (Bottom) -->
+      <g class="main-entrance-group">
+        <rect x="200" y="480" width="140" height="35" rx="4" fill="#111827" stroke="#D4AF37" stroke-width="2"/>
+        <rect x="235" y="475" width="70" height="10" rx="2" fill="#D4AF37"/>
+        <text x="270" y="502" fill="#FBBF24" font-size="10" font-weight="800" text-anchor="middle" letter-spacing="1.5">MAIN ENTRANCE</text>
+        <circle cx="215" cy="497" r="4" fill="#34D399"/>
+        <circle cx="325" cy="497" r="4" fill="#34D399"/>
+      </g>
+
+      <!-- INTERACTIVE PLOTS GRID -->
+      <g class="plots-layer" id="${n}-plots-group">
+        ${e.map(e=>{let r=e.id===t,i=`url(#${n}-plot-avail)`,a=`#15803D`,o=`#14532D`;e.status===`reserved`?(i=`url(#${n}-plot-res)`,a=`#B45309`,o=`#78350F`):e.status===`sold`&&(i=`url(#${n}-plot-sold)`,a=`#B91C1C`,o=`#7F1D1D`);let s=``,c=``,l=`1.2`;return r&&(s=`plot-selected`,a=`#0284C7`,l=`3`,c=`filter="url(#${n}-glow)"`,i=`#38BDF8`,o=`#082F49`),`
+            <g class="plot-item ${s}" 
+               data-plot-id="${e.id}" 
+               data-status="${e.status}"
+               data-size="${e.size}"
+               data-facing="${e.facing}"
+               data-road="${e.road}"
+               data-price="${e.price}"
+               cursor="pointer"
+               role="button"
+               tabindex="0"
+               aria-label="Plot ${e.num}, ${e.status}, ${e.size} Sq.Yds">
+              
+              <rect x="${e.x}" y="${e.y}" width="${e.w}" height="${e.h}" 
+                    rx="3" 
+                    fill="${i}" 
+                    stroke="${a}" 
+                    stroke-width="${l}"
+                    ${c}
+                    class="plot-rect" />
+
+              <text x="${e.x+e.w/2}" y="${e.y+e.h/2+3.5}" 
+                    fill="${o}" 
+                    font-size="8" 
+                    font-weight="${r?`800`:`700`}" 
+                    text-anchor="middle"
+                    pointer-events="none"
+                    class="plot-num-text">
+                ${e.num}
+              </text>
+            </g>
+          `}).join(``)}
+      </g>
+    </svg>
+  `}function T(e,t,n=!1){if(!e)return`<div class="no-plot-selected">Select a plot from the master plan to view details.</div>`;let r=e.status.charAt(0).toUpperCase()+e.status.slice(1),i=`status-badge ${e.status}`;return`
+    <div class="plot-details-wrapper" data-active-plot="${e.id}">
+      
+      <!-- Card Header -->
+      <div class="pd-header">
+        <h3 class="pd-title">Plot Details</h3>
+        <button type="button" class="pd-close-btn" id="${n?`fs`:`mp`}-details-close" title="Close Plot Details">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg>
+        </button>
+      </div>
+
+      <!-- Status Pill -->
+      <div class="pd-status-row">
+        <span class="${i}">
+          <span class="status-icon">✓</span>
+          <span>${r}</span>
+        </span>
+      </div>
+
+      <!-- Plot Main ID & Dimensions -->
+      <div class="pd-main-id">
+        <div class="pd-plot-number">${e.num}</div>
+        <div class="pd-plot-sub">${e.size} Sq.Yds (${e.dim})</div>
+      </div>
+
+      <!-- Price Box -->
+      <div class="pd-price-box">
+        <div class="pd-price-val">${e.price}</div>
+        <div class="pd-price-rate">(${e.rate})</div>
+      </div>
+
+      <!-- Specifications Grid (2 columns) -->
+      <div class="pd-specs-grid">
+        <div class="pd-spec-item">
+          <div class="spec-icon-wrap">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          </div>
+          <div class="spec-info">
+            <span class="spec-label">Facing</span>
+            <span class="spec-value">${e.facing}</span>
+          </div>
+        </div>
+
+        <div class="pd-spec-item">
+          <div class="spec-icon-wrap">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M4 19L8 5m8 14l4-14M10 9h4m-5 6h6"/></svg>
+          </div>
+          <div class="spec-info">
+            <span class="spec-label">Road Width</span>
+            <span class="spec-value">${e.road}</span>
+          </div>
+        </div>
+
+        <div class="pd-spec-item">
+          <div class="spec-icon-wrap">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+          </div>
+          <div class="spec-info">
+            <span class="spec-label">Dimensions</span>
+            <span class="spec-value">${e.dim}</span>
+          </div>
+        </div>
+
+        <div class="pd-spec-item">
+          <div class="spec-icon-wrap">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/></svg>
+          </div>
+          <div class="spec-info">
+            <span class="spec-label">Plot Area</span>
+            <span class="spec-value">${e.size} Sq.Yds</span>
+          </div>
+        </div>
+
+        <div class="pd-spec-item">
+          <div class="spec-icon-wrap">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <div class="spec-info">
+            <span class="spec-label">Approval</span>
+            <span class="spec-value">${e.approval}</span>
+          </div>
+        </div>
+
+        <div class="pd-spec-item">
+          <div class="spec-icon-wrap">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <div class="spec-info">
+            <span class="spec-label">Location</span>
+            <span class="spec-value">${e.location}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="pd-actions">
+        <button type="button" class="pd-btn primary-choose" onclick="window.openSiteVisitModal('${t} - Plot ${e.num}')">
+          <span>Choose This Plot</span>
+          <span class="btn-arrow">&rarr;</span>
+        </button>
+
+        <button type="button" class="pd-btn secondary-visit" onclick="window.openSiteVisitModal('${t} - Plot ${e.num}')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span>Book a Site Visit</span>
+        </button>
+
+        <a href="https://maps.google.com" target="_blank" rel="noopener" class="pd-btn flat-maps">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>View on Google Maps</span>
+        </a>
+      </div>
+
+    </div>
+  `}function E(e){let t=e.plots||[],n=1,r=1,i=document.getElementById(`mp-canvas-transform`),a=document.getElementById(`fs-canvas-transform`),o=document.getElementById(`mp-details-card`),s=document.getElementById(`fs-plot-panel`),c=document.getElementById(`mp-fullscreen-modal`),l=document.getElementById(`mp-zoom-in`),u=document.getElementById(`mp-zoom-out`),d=document.getElementById(`mp-zoom-reset`),f=document.getElementById(`mp-toggle-fullscreen`),p=document.getElementById(`fs-exit-btn`),m=document.getElementById(`fs-zoom-in`),h=document.getElementById(`fs-zoom-out`),g=document.getElementById(`fs-zoom-reset`);function _(e){n=Math.min(Math.max(e,.7),2.2),i&&(i.style.transform=`scale(${n})`,i.style.transformOrigin=`center center`)}function v(e){r=Math.min(Math.max(e,.8),2.8),a&&(a.style.transform=`scale(${r})`,a.style.transformOrigin=`center center`)}l&&l.addEventListener(`click`,()=>_(n+.2)),u&&u.addEventListener(`click`,()=>_(n-.2)),d&&d.addEventListener(`click`,()=>_(1)),m&&m.addEventListener(`click`,()=>v(r+.25)),h&&h.addEventListener(`click`,()=>v(r-.25)),g&&g.addEventListener(`click`,()=>v(1)),f&&c&&f.addEventListener(`click`,()=>{c.style.display=`flex`,document.body.style.overflow=`hidden`,v(1)}),p&&c&&p.addEventListener(`click`,()=>{c.style.display=`none`,document.body.style.overflow=``});function y(n){let r=t.find(e=>e.id===n);r&&(o&&(o.innerHTML=T(r,e.name,!1),o.classList.add(`mobile-open`),b()),s&&(s.innerHTML=T(r,e.name,!0),s.style.display=`block`,b()),document.querySelectorAll(`.plot-item`).forEach(e=>{let t=e.getAttribute(`data-plot-id`)===n,r=e.querySelector(`.plot-rect`),i=e.querySelector(`.plot-num-text`),a=e.getAttribute(`data-status`);if(t)e.classList.add(`plot-selected`),r&&(r.setAttribute(`fill`,`#38BDF8`),r.setAttribute(`stroke`,`#0284C7`),r.setAttribute(`stroke-width`,`3`),r.setAttribute(`filter`,`url(#mp-glow)`)),i&&(i.setAttribute(`fill`,`#082F49`),i.setAttribute(`font-weight`,`800`));else{e.classList.remove(`plot-selected`);let t=`url(#mp-plot-avail)`,n=`#15803D`,o=`#14532D`;a===`reserved`?(t=`url(#mp-plot-res)`,n=`#B45309`,o=`#78350F`):a===`sold`&&(t=`url(#mp-plot-sold)`,n=`#B91C1C`,o=`#7F1D1D`),r&&(r.setAttribute(`fill`,t),r.setAttribute(`stroke`,n),r.setAttribute(`stroke-width`,`1.2`),r.removeAttribute(`filter`)),i&&(i.setAttribute(`fill`,o),i.setAttribute(`font-weight`,`700`))}}))}document.querySelectorAll(`.plot-item`).forEach(e=>{e.addEventListener(`click`,t=>{y(e.getAttribute(`data-plot-id`))})});function b(){let e=document.getElementById(`mp-details-close`),t=document.getElementById(`fs-details-close`);e&&e.addEventListener(`click`,()=>{o&&o.classList.remove(`mobile-open`)}),t&&t.addEventListener(`click`,()=>{s&&(s.style.display=`none`)})}b();let x=document.getElementById(`filter-size`),S=document.getElementById(`filter-budget`),C=document.getElementById(`filter-facing`),w=document.getElementById(`filter-road`),E=document.getElementById(`avail-available`),D=document.getElementById(`avail-reserved`),O=document.getElementById(`avail-sold`),k=document.getElementById(`mp-apply-btn`),A=document.getElementById(`mp-filter-reset`);function j(){let e=x?x.value:`all`,t=S?S.value:`all`,n=C?C.value:`all`,r=w?w.value:`all`,i=[];E&&E.checked&&i.push(`available`),D&&D.checked&&i.push(`reserved`),O&&O.checked&&i.push(`sold`),document.querySelectorAll(`.plot-item`).forEach(a=>{let o=parseInt(a.getAttribute(`data-size`),10),s=a.getAttribute(`data-facing`),c=a.getAttribute(`data-road`),l=a.getAttribute(`data-status`),u=!0;e!==`all`&&o!==parseInt(e,10)&&(u=!1),n!==`all`&&s!==n&&(u=!1),r!==`all`&&c!==r&&(u=!1),i.length>0&&!i.includes(l)&&(u=!1),t===`30`&&o>180&&(u=!1),t===`35`&&(o<200||o>220)&&(u=!1),t===`40`&&o<250&&(u=!1),u?(a.style.opacity=`1`,a.style.pointerEvents=`auto`):(a.style.opacity=`0.15`,a.style.pointerEvents=`none`)})}k&&k.addEventListener(`click`,j),A&&A.addEventListener(`click`,()=>{x&&(x.value=`all`),S&&(S.value=`all`),C&&(C.value=`all`),w&&(w.value=`all`),E&&(E.checked=!0),D&&(D.checked=!1),O&&(O.checked=!1),j()})}function D(t){let n=S[t]||S[`vr-prime-meadows`],r=n.stats.map(e=>`
+    <div class="pstat-item">
+      <div class="pstat-icon">${k(e.icon)}</div>
+      <div class="pstat-content">
+        ${e.isText?``:`<span class="pstat-val">${e.value}</span>`}
+        <span class="pstat-lbl">${e.label}</span>
+      </div>
+    </div>
+  `).join(``),i=n.highlights.map(e=>`
+    <div class="highlight-card">
+      <div class="highlight-icon">${A(e.icon)}</div>
+      <span class="highlight-title">${e.title}</span>
+    </div>
+  `).join(``),a=n.advantages.map(e=>`
+    <div class="advantage-card">
+      <div class="adv-icon">${A(e.icon)}</div>
+      <span class="adv-title">${e.title}</span>
+    </div>
+  `).join(``),o=``;n.configurations&&n.configurations.length>0&&(o=`
+      <section class="project-config-section" id="configurations-section">
+        <div class="ref-container">
+          <div class="detail-section-title-wrap">
+            <h3 class="detail-section-title">Available Configurations & Floor Plans</h3>
+            <p class="detail-section-sub">Choose from carefully crafted unit plans tailored for luxury, comfort and high value.</p>
+          </div>
+          <div class="config-grid">
+            ${n.configurations.map((e,t)=>`
+      <div class="config-card">
+        <div class="config-card-header">
+          <span class="config-badge">${e.plotSize}</span>
+          <h4 class="config-title">${e.type}</h4>
+          <div class="config-size">${e.size} &bull; ${e.facing}</div>
+        </div>
+        <div class="config-features">
+          ${e.features.map(e=>`<div class="cfg-feature-item"><span class="cfg-check">✓</span><span>${e}</span></div>`).join(``)}
+        </div>
+        <div class="config-footer">
+          <div class="cfg-price">
+            <span class="cfg-price-lbl">Starting from</span>
+            <span class="cfg-price-val">${e.price}</span>
+          </div>
+          <button class="cfg-btn" onclick="window.openSiteVisitModal('${n.name} - ${e.type}')">Enquire Now</button>
+        </div>
+      </div>
+    `).join(``)}
+          </div>
+        </div>
+      </section>
+    `);let s=n.connectivity.distances.map(e=>`
+    <div class="distance-row">
+      <div class="dist-left">
+        <span class="dist-icon">${j(e.icon)}</span>
+        <span class="dist-name">${e.destination}</span>
+      </div>
+      <div class="dist-right">
+        <span class="dist-km">${e.distance}</span>
+        <span class="dist-time">(${e.time})</span>
+      </div>
+    </div>
+  `).join(``),c=n.gallery.thumbnails.map((e,t)=>`
+    <div class="gallery-thumb-item" data-idx="${t}">
+      <img src="${e.img}" alt="${e.title}" loading="lazy" />
+      <span class="gallery-thumb-caption">${e.title}</span>
+    </div>
+  `).join(``);return{html:`
+    ${e()}
+
+    <main class="project-detail-main">
+      
+      <!-- Top Breadcrumbs & Project Hero Banner -->
+      <section class="project-hero-header">
+        <div class="ref-container">
+          
+          <!-- Breadcrumbs -->
+          <nav class="p-breadcrumbs" aria-label="Breadcrumbs">
+            <a href="#/">Home</a>
+            <span class="p-sep">&gt;</span>
+            <a href="${n.categoryLink}">${n.category}</a>
+            <span class="p-sep">&gt;</span>
+            <span class="p-current">${n.name}</span>
+          </nav>
+
+          <!-- Main Hero Content Row -->
+          <div class="p-hero-row">
+            
+            <!-- Left Info -->
+            <div class="p-hero-info">
+              <h1 class="p-hero-title">${n.name}</h1>
+              <p class="p-hero-location">${n.tagline}</p>
+              <p class="p-hero-desc">${n.subtitle}</p>
+
+              <!-- Verification Badges -->
+              <div class="p-hero-badges">
+                ${n.badges.map(e=>`
+                  <span class="p-badge">
+                    <span class="p-badge-icon">✓</span>
+                    <span>${e.text}</span>
+                  </span>
+                `).join(``)}
+              </div>
+            </div>
+
+            <!-- Right Script Flourish & Quick Stats -->
+            <div class="p-hero-right-flourish">
+              <div class="script-callout">
+                <span class="script-text">${n.scriptCallout}</span>
+                <svg class="script-underline" width="160" height="12" viewBox="0 0 160 12" fill="none">
+                  <path d="M2 9C50 2 110 3 158 8" stroke="#1A3B2B" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+
+              <!-- Stats Strip Grid -->
+              <div class="p-stats-strip">
+                ${r}
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Project Section Tabs Navigation -->
+          <div class="p-tabs-nav-bar">
+            <div class="p-tabs-list" id="p-tabs-list">
+              ${n.tabs.map(e=>`
+                <a href="#${e.id}-section" class="p-tab-btn ${e.active?`active`:``}" data-tab="${e.id}">
+                  ${e.label}
+                </a>
+              `).join(``)}
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Plot Master Plan (For VR Prime Meadows) or Overview Configurations -->
+      ${n.hasMasterPlan?C(n):o}
+
+      <!-- Project Highlights Section -->
+      <section class="detail-section highlights-section" id="amenities-section">
+        <div class="ref-container">
+          <div class="detail-section-header">
+            <h3 class="detail-section-title">Project Highlights</h3>
+            <a href="#/contact" class="detail-see-all-mob">See All &rarr;</a>
+          </div>
+
+          <div class="highlights-grid">
+            ${i}
+          </div>
+        </div>
+      </section>
+
+      <!-- Key Advantages Section -->
+      <section class="detail-section advantages-section" id="project-overview-section">
+        <div class="ref-container">
+          <div class="detail-section-header">
+            <h3 class="detail-section-title">Key Advantages</h3>
+          </div>
+
+          <div class="advantages-grid">
+            ${a}
+          </div>
+        </div>
+      </section>
+
+      <!-- Location & Connectivity + Project Gallery Section -->
+      <section class="detail-section location-gallery-section" id="location-connectivity-section">
+        <div class="ref-container">
+          <div class="loc-gal-grid">
+            
+            <!-- Left: Location & Connectivity (Schematic + Distance Table) -->
+            <div class="location-col">
+              <div class="detail-section-header">
+                <h3 class="detail-section-title">Location & Connectivity</h3>
+                <a href="https://maps.google.com" target="_blank" rel="noopener" class="detail-see-all-mob">See All &rarr;</a>
+              </div>
+
+              <div class="location-connectivity-card">
+                
+                <!-- Schematic Network Route Map -->
+                <div class="schematic-map-wrap">
+                  <div class="schematic-map-svg-box">
+                    ${O(n.name)}
+                  </div>
+                </div>
+
+                <!-- Distance from Major Locations Table -->
+                <div class="distance-table-wrap">
+                  <h4 class="dist-table-heading">Distance from Major Locations</h4>
+                  <div class="distance-list">
+                    ${s}
+                  </div>
+
+                  <div class="dist-gmaps-btn-wrap">
+                    <a href="https://maps.google.com" target="_blank" rel="noopener" class="dist-gmaps-btn">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                      <span>View on Google Maps</span>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- Right: Project Gallery -->
+            <div class="gallery-col" id="gallery-section">
+              <div class="detail-section-header">
+                <h3 class="detail-section-title">Project Gallery</h3>
+                <a href="#gallery-section" class="detail-view-all-link">View All &rarr;</a>
+              </div>
+
+              <div class="gallery-card">
+                <!-- Large Featured Photo -->
+                <div class="gallery-featured-wrap">
+                  <img src="${n.gallery.featured.img}" alt="${n.gallery.featured.title}" class="gallery-featured-img" />
+                  <div class="gallery-featured-caption">${n.gallery.featured.title}</div>
+                </div>
+
+                <!-- 2x2 Grid Thumbnails -->
+                <div class="gallery-thumbs-grid">
+                  ${c}
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Luxury CTA Banner -->
+      <section class="project-cta-banner-section" id="brochure-section">
+        <div class="ref-container">
+          <div class="project-cta-banner">
+            <div class="cta-banner-content">
+              <h2 class="cta-banner-headline">${n.cta.headline}</h2>
+              <p class="cta-banner-sub">${n.cta.subtitle}</p>
+            </div>
+            <div class="cta-banner-action">
+              <button class="cta-banner-gold-btn" onclick="window.openSiteVisitModal('${n.name}')">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>${n.cta.btnText}</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Bottom 3-Feature Value Strip -->
+      <section class="project-bottom-strip-section">
+        <div class="ref-container">
+          <div class="bottom-strip-grid">
+            ${n.footerPoints.map(e=>`
+              <div class="bstrip-item">
+                <div class="bstrip-icon-wrap">${A(e.icon)}</div>
+                <div class="bstrip-info">
+                  <h4 class="bstrip-title">${e.title}</h4>
+                  <p class="bstrip-desc">${e.desc}</p>
+                </div>
+              </div>
+            `).join(``)}
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    ${p()}
+  `,init:()=>{n.hasMasterPlan&&E(n);let e=document.querySelectorAll(`.p-tab-btn`);e.forEach(t=>{t.addEventListener(`click`,n=>{e.forEach(e=>e.classList.remove(`active`)),t.classList.add(`active`)})})}}}function O(e){return`
+    <svg viewBox="0 0 380 240" class="schematic-svg" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <filter id="node-shadow" x="-20%" y="-20%" width="140%" height="140%">
+          <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000" flood-opacity="0.15"/>
+        </filter>
+      </defs>
+
+      <!-- Background Soft Map Grid -->
+      <rect width="380" height="240" fill="#F8FAFC" rx="10"/>
+      <path d="M 0 60 L 380 60 M 0 120 L 380 120 M 0 180 L 380 180" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+      <path d="M 90 0 L 90 240 M 190 0 L 190 240 M 290 0 L 290 240" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4 4"/>
+
+      <!-- Connecting Road Corridors -->
+      <!-- Airport to Project -->
+      <line x1="95" y1="55" x2="165" y2="135" stroke="#0284C7" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="95" y1="55" x2="165" y2="135" stroke="#BAE6FD" stroke-width="1" stroke-dasharray="4 3"/>
+
+      <!-- ORR to Project -->
+      <line x1="265" y1="55" x2="165" y2="135" stroke="#10B981" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="265" y1="55" x2="165" y2="135" stroke="#D1FAE5" stroke-width="1" stroke-dasharray="4 3"/>
+
+      <!-- Bus Stand to Project -->
+      <line x1="75" y1="170" x2="165" y2="135" stroke="#EF4444" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- Town to Project -->
+      <line x1="105" y1="215" x2="165" y2="135" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+
+      <!-- NH-44 to Project -->
+      <line x1="265" y1="195" x2="165" y2="135" stroke="#059669" stroke-width="3.5" stroke-linecap="round"/>
+
+      <!-- NODE 1: Airport (Top Left) -->
+      <g transform="translate(40, 30)" filter="url(#node-shadow)">
+        <rect width="110" height="42" rx="8" fill="#FFFFFF" stroke="#0284C7" stroke-width="1.5"/>
+        <circle cx="20" cy="21" r="12" fill="#0284C7"/>
+        <path d="M 15 21 L 25 21 M 21 17 L 25 21 L 21 25" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+        <text x="38" y="16" fill="#0F172A" font-size="8.5" font-weight="700">Rajiv Gandhi Int. Airport</text>
+        <text x="38" y="27" fill="#0284C7" font-size="8" font-weight="800">25 km</text>
+        <text x="65" y="27" fill="#64748B" font-size="7.5">(30 mins)</text>
+      </g>
+
+      <!-- NODE 2: ORR (Top Right) -->
+      <g transform="translate(230, 30)" filter="url(#node-shadow)">
+        <rect width="115" height="42" rx="8" fill="#FFFFFF" stroke="#10B981" stroke-width="1.5"/>
+        <circle cx="20" cy="21" r="12" fill="#10B981"/>
+        <circle cx="20" cy="21" r="6" fill="#FFFFFF"/>
+        <text x="38" y="16" fill="#0F172A" font-size="8.5" font-weight="700">Outer Ring Road (ORR)</text>
+        <text x="38" y="27" fill="#059669" font-size="8" font-weight="800">12 km</text>
+        <text x="65" y="27" fill="#64748B" font-size="7.5">(20 mins)</text>
+      </g>
+
+      <!-- NODE 3: Shadnagar Bus Stand (Middle Left) -->
+      <g transform="translate(15, 140)" filter="url(#node-shadow)">
+        <rect width="90" height="40" rx="8" fill="#FFFFFF" stroke="#EF4444" stroke-width="1.5"/>
+        <circle cx="18" cy="20" r="10" fill="#EF4444"/>
+        <text x="34" y="15" fill="#0F172A" font-size="8" font-weight="700">Bus Stand</text>
+        <text x="34" y="26" fill="#DC2626" font-size="7.5" font-weight="800">8 km <tspan fill="#64748B" font-weight="500">(15m)</tspan></text>
+      </g>
+
+      <!-- NODE 4: Shadnagar Town (Bottom Left) -->
+      <g transform="translate(50, 195)" filter="url(#node-shadow)">
+        <rect width="90" height="38" rx="8" fill="#FFFFFF" stroke="#3B82F6" stroke-width="1.5"/>
+        <circle cx="18" cy="19" r="10" fill="#3B82F6"/>
+        <text x="34" y="14" fill="#0F172A" font-size="8" font-weight="700">Town Center</text>
+        <text x="34" y="25" fill="#2563EB" font-size="7.5" font-weight="800">8 km <tspan fill="#64748B" font-weight="500">(15m)</tspan></text>
+      </g>
+
+      <!-- NODE 5: NH-44 Highway (Bottom Right) -->
+      <g transform="translate(230, 175)" filter="url(#node-shadow)">
+        <rect width="90" height="40" rx="8" fill="#FFFFFF" stroke="#059669" stroke-width="1.5"/>
+        <circle cx="18" cy="20" r="10" fill="#059669"/>
+        <text x="34" y="15" fill="#0F172A" font-size="8" font-weight="700">NH-44 Highway</text>
+        <text x="34" y="26" fill="#047857" font-size="7.5" font-weight="800">8 km <tspan fill="#64748B" font-weight="500">(15m)</tspan></text>
+      </g>
+
+      <!-- CENTER HUB NODE: Project Destination -->
+      <g transform="translate(130, 115)" filter="url(#node-shadow)">
+        <rect width="115" height="42" rx="21" fill="#1A3B2B" stroke="#D4AF37" stroke-width="2"/>
+        <circle cx="21" cy="21" r="13" fill="#D4AF37"/>
+        <path d="M 21 14 C 18 14 16 16.5 16 19 C 16 23 21 27 21 27 C 21 27 26 23 26 19 C 26 16.5 24 14 21 14 Z" fill="#1A3B2B"/>
+        <circle cx="21" cy="19" r="2" fill="#D4AF37"/>
+        <text x="40" y="25" fill="#FFFFFF" font-size="9" font-weight="800" letter-spacing="0.5">${e.split(` `)[0]} ${e.split(` `)[1]||``}</text>
+      </g>
+
+    </svg>
+  `}function k(e){switch(e){case`land`:return`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="1.8"><path d="m21 16-4 4-5-5-6 6M3 21h18M3 10l5 5 4-4 8 8"/></svg>`;case`grid`:return`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="1.8"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>`;case`tree`:return`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="1.8"><path d="M12 22v-8M7 14l5-5 5 5M8 10l4-4 4 4M9 6l3-3 3 3"/></svg>`;case`clubhouse`:return`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="1.8"><path d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6"/></svg>`;case`road`:return`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="1.8"><path d="M4 19L8 5m8 14l4-14M12 7v3m0 4v3"/></svg>`;case`play`:return`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="1.8"><circle cx="12" cy="5" r="3"/><path d="M12 8v8M8 12h8M9 20l3-4 3 4"/></svg>`;default:return`<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="1.8"><circle cx="12" cy="12" r="9"/></svg>`}}function A(e){switch(e){case`shield-check`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>`;case`gate`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><rect x="3" y="4" width="4" height="16"/><rect x="17" y="4" width="4" height="16"/><line x1="7" y1="8" x2="17" y2="8"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="7" y1="16" x2="17" y2="16"/></svg>`;case`arch`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M4 21V10a8 8 0 0 1 16 0v11M2 21h20"/></svg>`;case`road-wide`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M4 19L8 5m8 14l4-14M10 9h4m-5 6h6"/></svg>`;case`tree-park`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M12 22v-6M8 12c-2 0-3-1-3-3s2-4 4-4c1-2 3-3 5-3s4 1 5 3c2 0 4 2 4 4s-1 3-3 3H8z"/></svg>`;case`club-house`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M3 21h18M5 21V7l7-4 7 4v14M10 9h4v4h-4z"/></svg>`;case`play-area`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><circle cx="12" cy="5" r="2.5"/><path d="M12 7.5v7m-4-4 8 2M9 20l3-5.5 3 5.5"/></svg>`;case`dumbbell`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M6 5v14M18 5v14M2 9v6M22 9v6M6 12h12"/></svg>`;case`pipe`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M3 7h6a4 4 0 0 1 4 4v2a4 4 0 0 0 4 4h4M3 11h4a4 4 0 0 1 4 4v2M17 17h4"/></svg>`;case`leaf-row`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/></svg>`;case`pin-star`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>`;case`leaf`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/></svg>`;case`compass-grid`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>`;case`doc-check`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg>`;case`chart-up`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>`;case`shield-lock`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><circle cx="12" cy="12" r="2"/></svg>`;case`home-heart`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M12 11c-1.5-1.5-3.5 0-3.5 1.5 0 2 3.5 4.5 3.5 4.5s3.5-2.5 3.5-4.5c0-1.5-2-3-3.5-1.5z"/></svg>`;case`award`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><circle cx="12" cy="8" r="6"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg>`;case`target`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>`;case`sparkle`:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>`;default:return`<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#1A3B2B" stroke-width="2"><circle cx="12" cy="12" r="10"/></svg>`}}function j(e){switch(e){case`plane`:return`✈️`;case`bus`:return`🚌`;case`building`:return`🏢`;case`road`:return`🛣️`;case`hospital`:return`🏥`;case`school`:return`🎓`;case`shopping`:return`🛍️`;default:return`📍`}}function M(n,r,i,a=`#/`){return{html:`
     <div class="page-static">
       ${e({currentPath:a})}
       
@@ -1187,7 +2054,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
 
       ${p()}
     </div>
-  `,init:()=>{t(),m();let e=document.getElementById(`static-contact-form`);e&&e.addEventListener(`submit`,t=>{t.preventDefault(),e.reset(),v(`Message sent! Our property advisor will reach out to you.`)})}}}function C(){return S(`ABOUT VR REAL ESTATES`,`Find Your Dream Asset with complete confidence, transparency, and legal due diligence.`,`
+  `,init:()=>{t(),m();let e=document.getElementById(`static-contact-form`);e&&e.addEventListener(`submit`,t=>{t.preventDefault(),e.reset(),v(`Message sent! Our property advisor will reach out to you.`)})}}}function N(){return M(`ABOUT VR REAL ESTATES`,`Find Your Dream Asset with complete confidence, transparency, and legal due diligence.`,`
       <h2 style="font-family: var(--font-heading); font-size: 1.8rem; color: #0e4b9e; margin-bottom: 16px;">Who We Are</h2>
       <p style="margin-bottom: 20px;">
         VR Real Estates is a premier real estate advisory and land acquisition company operating across prime corridors in Telangana and Andhra Pradesh. Built on principles of transparency, trust, and verified documentation, we assist individual home seekers, NRI investors, and institutional clients in identifying high-growth land assets and luxury properties.
@@ -1203,7 +2070,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
         <h4 style="color: #0e4b9e; font-size: 1.1rem; margin-bottom: 8px;">Our Promise to Every Buyer:</h4>
         <p>ముందుగా Location చూడండి... నచ్చితేనే Decision తీసుకోండి. We always recommend inspecting the actual site, verifying town-planning approvals, and understanding future appreciation potential before committing.</p>
       </div>
-    `,`#/about`)}function w(){return S(`OUR SERVICES`,`Comprehensive real estate advisory from land verification to registration and management.`,`
+    `,`#/about`)}function P(){return M(`OUR SERVICES`,`Comprehensive real estate advisory from land verification to registration and management.`,`
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
         <div style="padding: 20px; border: 1px solid #e2e8f0; border-radius: 12px;">
           <h3 style="color: #0e4b9e; font-size: 1.25rem; margin-bottom: 8px;">📜 Due Diligence &amp; Title Verification</h3>
@@ -1222,7 +2089,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           <p>Strategic advisory on when to enter, hold, and exit plotted land investments to maximize compounding capital returns.</p>
         </div>
       </div>
-    `,`#/services`)}function T(){return S(`CONTACT US`,`Get in touch with VR Real Estates advisors for plots, villas, and site visits.`,`
+    `,`#/services`)}function F(){return M(`CONTACT US`,`Get in touch with VR Real Estates advisors for plots, villas, and site visits.`,`
       <div style="display: grid; grid-template-columns: 1.2fr 1fr; gap: 36px;">
         <div>
           <h3 style="font-family: var(--font-heading); font-size: 1.4rem; color: #0e4b9e; margin-bottom: 16px;">Send Us a Message</h3>
@@ -1264,7 +2131,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           </div>
         </div>
       </div>
-    `,`#/contact`)}function E(){return S(`RESOURCES & BUYER GUIDES`,`Comprehensive guides and regulatory resources for land buyers in AP & Telangana.`,`
+    `,`#/contact`)}function I(){return M(`RESOURCES & BUYER GUIDES`,`Comprehensive guides and regulatory resources for land buyers in AP & Telangana.`,`
       <div style="display: flex; flex-direction: column; gap: 20px;">
         <div style="padding: 20px; border: 1px solid #e2e8f0; border-radius: 12px;">
           <h3 style="color: #0e4b9e; font-size: 1.25rem;">Amaravati Capital Region Buyer Guide</h3>
@@ -1279,7 +2146,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           <p>Why Bangalore tech professionals are acquiring assets along the Bangalore-Hyderabad expressway corridor.</p>
         </div>
       </div>
-    `,`#/resources`)}function D(){return S(`MEDIA & PROJECT HIGHLIGHTS`,`Watch walkthrough videos, drone surveys, and layout development updates.`,`
+    `,`#/resources`)}function L(){return M(`MEDIA & PROJECT HIGHLIGHTS`,`Watch walkthrough videos, drone surveys, and layout development updates.`,`
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
         <div style="border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden;">
           <img src="/images/hero-openplots.jpg" style="height: 200px; width: 100%; object-fit: cover;" />
@@ -1296,7 +2163,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           </div>
         </div>
       </div>
-    `,`#/media`)}function O(e=`villas`){let t={villas:`LUXURY VILLAS`,apartments:`PREMIUM APARTMENTS`,farmlands:`MANAGED FARM LANDS`},n={villas:`/images/cat-villas.jpg`,apartments:`/images/cat-apartments.jpg`,farmlands:`/images/cat-farmlands.jpg`},r=t[e]||`PROPERTIES`,i=n[e]||`/images/cat-villas.jpg`;return S(r,`Explore premium ${e} verified by VR Real Estates.`,`
+    `,`#/media`)}function R(e=`villas`){let t={villas:`LUXURY VILLAS`,apartments:`PREMIUM APARTMENTS`,farmlands:`MANAGED FARM LANDS`},n={villas:`/images/cat-villas.jpg`,apartments:`/images/cat-apartments.jpg`,farmlands:`/images/cat-farmlands.jpg`},r=t[e]||`PROPERTIES`,i=n[e]||`/images/cat-villas.jpg`;return M(r,`Explore premium ${e} verified by VR Real Estates.`,`
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 28px;">
         <div style="border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: var(--shadow-sm);">
           <img src="${i}" style="height: 260px; width: 100%; object-fit: cover;" />
@@ -1315,7 +2182,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           <button class="btn-send-enquiry" style="width: fit-content;" onclick="window.openSiteVisitModal('${r}')">Request Custom Shortlist</button>
         </div>
       </div>
-    `,`#/${e}`)}var k={"/":h,"/open-plots":_,"/open-plots.html":_,"/amodha":()=>x(`amodha`),"/amodha.html":()=>x(`amodha`),"/about":C,"/services":w,"/resources":E,"/media":D,"/contact":T,"/villas":()=>O(`villas`),"/apartments":()=>O(`apartments`),"/farmlands":()=>O(`farmlands`)};function A(){let e=window.location.hash||`#/`,t=e.replace(/^#/,``).split(`?`)[0],n=document.getElementById(`app`);if(!n)return;if(window.scrollTo(0,0),k[t]){let e=k[t]();n.innerHTML=e.html,e.init&&e.init();return}if(t.startsWith(`/property/`)){let e=x(t.replace(`/property/`,``));n.innerHTML=e.html,e.init&&e.init();return}if(t.startsWith(`/guides/`)){let r=t.replace(`/guides/`,``).replace(/-/g,` `).toUpperCase(),i=S(`${r} BUYER GUIDE`,`Complete legal, connectivity, and development insights.`,`
+    `,`#/${e}`)}var z={"/":h,"/open-plots":_,"/open-plots.html":_,"/vr-green-villas":()=>D(`vr-green-villas`),"/vr-prime-meadows":()=>D(`vr-prime-meadows`),"/vr-heights":()=>D(`vr-heights`),"/vr-agro-lands":()=>D(`vr-agro-lands`),"/amodha":()=>D(`vr-prime-meadows`),"/amodha.html":()=>D(`vr-prime-meadows`),"/about":N,"/services":P,"/resources":I,"/media":L,"/contact":F,"/villas":()=>R(`villas`),"/apartments":()=>R(`apartments`),"/farmlands":()=>R(`farmlands`)};function B(){let e=window.location.hash||`#/`,t=e.replace(/^#/,``).split(`?`)[0],n=document.getElementById(`app`);if(!n)return;if(window.scrollTo(0,0),z[t]){let e=z[t]();n.innerHTML=e.html,e.init&&e.init();return}if(t.startsWith(`/property/`)){let e=x(t.replace(`/property/`,``));n.innerHTML=e.html,e.init&&e.init();return}if(t.startsWith(`/guides/`)){let r=t.replace(`/guides/`,``).replace(/-/g,` `).toUpperCase(),i=M(`${r} BUYER GUIDE`,`Complete legal, connectivity, and development insights.`,`
         <p style="margin-bottom: 20px;">Welcome to the official <strong>${r} Buyer Guide</strong> by VR Real Estates. When investing in real estate, thorough due diligence and on-ground analysis are paramount.</p>
         <div style="background: #f0f7ff; border-left: 4px solid #0e4b9e; padding: 20px; border-radius: 8px; margin-bottom: 24px;">
           <h4 style="color: #0e4b9e; margin-bottom: 8px;">Key Verification Steps:</h4>
@@ -1326,7 +2193,7 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
           </ul>
         </div>
         <button class="nav-cta-blue" onclick="window.openSiteVisitModal('${r} Guide')">Download Full PDF Guide</button>
-      `,e);n.innerHTML=i.html,i.init&&i.init();return}if(t.startsWith(`/location/`)){let r=t.replace(`/location/`,``).toUpperCase(),i=S(`PROPERTY IN ${r}`,`Explore high-potential real estate and open plot opportunities across ${r}.`,`
+      `,e);n.innerHTML=i.html,i.init&&i.init();return}if(t.startsWith(`/location/`)){let r=t.replace(`/location/`,``).toUpperCase(),i=M(`PROPERTY IN ${r}`,`Explore high-potential real estate and open plot opportunities across ${r}.`,`
         <p style="margin-bottom: 20px;">Discover verified properties and fast-appreciating ventures in <strong>${r}</strong>. All projects are hand-picked and vetted for clear titles, approved layouts, and immediate registration.</p>
         <div style="margin-top: 24px;">
           <a href="#/open-plots" class="hero-split-btn">
@@ -1334,4 +2201,4 @@ Tomorrow`,desc:`Managed farmlands for lifestyle, leisure and long-term value.`,b
             <span class="hero-btn-arrow">&raquo;</span>
           </a>
         </div>
-      `,e);n.innerHTML=i.html,i.init&&i.init();return}let r=h();n.innerHTML=r.html,r.init&&r.init()}window.addEventListener(`hashchange`,A),document.readyState===`loading`?window.addEventListener(`DOMContentLoaded`,A):A();
+      `,e);n.innerHTML=i.html,i.init&&i.init();return}let r=h();n.innerHTML=r.html,r.init&&r.init()}window.addEventListener(`hashchange`,B),document.readyState===`loading`?window.addEventListener(`DOMContentLoaded`,B):B();
