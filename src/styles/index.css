@@ -2627,13 +2627,45 @@ html, body {
 
 @media (max-width: 1024px) {
   .ref-header-inner {
-    padding: 12px 16px;
+    padding: 10px 14px;
+    height: 64px;
+    gap: 8px;
+  }
+  .ref-brand-logo-img {
+    height: 36px;
+    width: auto;
+    max-width: 135px;
+    object-fit: contain;
+  }
+  .ref-header-actions {
+    gap: 10px;
+    flex-shrink: 0;
+  }
+  .header-enquire-btn {
+    padding: 7px 13px;
+    font-size: 0.82rem;
+    border-radius: 8px;
+    white-space: nowrap;
   }
   .ref-nav-menu, .header-contact-meta {
     display: none !important;
   }
   .ref-mobile-toggle {
     display: flex !important;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    flex-shrink: 0;
+    cursor: pointer;
+    margin-left: 2px;
+  }
+  .ref-mobile-toggle span {
+    display: block;
+    height: 2.5px;
+    width: 100%;
+    background: var(--c-green-deep);
+    border-radius: 2px;
   }
   /* Hero Split - Mobile Vertical Order: Content -> CTAs -> Benefits -> Image */
   /* Mobile Hero Styling matching Reference Image 3 */
