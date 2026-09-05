@@ -210,7 +210,7 @@ input, select, textarea {
    1. SINGLE-BAR HEADER
    ========================================================================== */
 .ref-header {
-  background: #FAF9F5;
+  background: #FAF8F5;
   border-bottom: none;
   position: sticky;
   top: 0;
@@ -446,14 +446,16 @@ input, select, textarea {
   flex-direction: column;
   background: #ffffff;
   border-top: 1px solid #F0EEEA;
-  padding: 20px 28px;
+  padding: 0 28px;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s ease;
+  transition: max-height 0.35s ease, padding 0.35s ease;
 }
 
 .ref-mobile-drawer.open {
+  display: flex !important;
   max-height: 520px;
+  padding: 20px 28px;
 }
 
 .ref-mobile-link {
@@ -2633,13 +2635,11 @@ html, body {
   .ref-mobile-toggle {
     display: flex !important;
   }
-  .ref-mobile-drawer {
-    display: flex;
-  }
   /* Hero Split - Mobile Vertical Order: Content -> CTAs -> Benefits -> Image */
   .ref-hero-section {
-    padding: 16px 0 24px;
+    padding: 12px 0 24px;
     min-height: auto;
+    margin-top: 0;
   }
   .ref-hero-indicators,
   .ref-projects-dots {
