@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+.next/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Local database/runtime artifacts
+*.sqlite
+*.sqlite3
+backend/.data/
+
+# Existing visual/reference material that should not become runtime dependencies
+reference/
