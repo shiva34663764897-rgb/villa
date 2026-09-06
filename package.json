@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "node ./node_modules/vite/bin/vite.js build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "backend:start": "node backend/src/server.js",
+    "backend:check": "node --check backend/src/app.js && node --check backend/src/server.js"
   },
   "keywords": [],
   "author": "",
